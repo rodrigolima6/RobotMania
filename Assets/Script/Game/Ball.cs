@@ -40,8 +40,8 @@ public class Ball : MonoBehaviour
     {
         // Clamp the ball's position to the screen boundaries
         Vector3 clampedPosition = transform.position;
-        clampedPosition.x = Mathf.Clamp(clampedPosition.x, GameManager.Instance.ScreenBounds.min.x, GameManager.Instance.ScreenBounds.max.x);
-        clampedPosition.y = Mathf.Clamp(clampedPosition.y, GameManager.Instance.ScreenBounds.min.y, GameManager.Instance.ScreenBounds.max.y);
+        clampedPosition.x = Mathf.Clamp(clampedPosition.x, GameManager.Instance.getScreenBounds().min.x, GameManager.Instance.getScreenBounds().max.x);
+        clampedPosition.y = Mathf.Clamp(clampedPosition.y, GameManager.Instance.getScreenBounds().min.y, GameManager.Instance.getScreenBounds().max.y);
         transform.position = clampedPosition;
     }
 }

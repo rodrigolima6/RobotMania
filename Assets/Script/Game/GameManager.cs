@@ -7,12 +7,12 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
-    public TextMeshProUGUI textMeshPro;
-    public List<Sprite> Hearts_Sprite;
-    public Image Hearts;
-    public int playerLife = 3;
-    public Bounds ScreenBounds;
-    public int score = 0;
+    [SerializeField] private TextMeshProUGUI textMeshPro;
+    [SerializeField] private List<Sprite> Hearts_Sprite;
+    [SerializeField] private Image Hearts;
+    private Bounds ScreenBounds;
+    public float playerLife = 3;
+    public float score = 0;
 
     private void Awake()
     {
@@ -35,10 +35,15 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public Bounds getScreenBounds()
+    {
+        return ScreenBounds;
+    }
+
     // Rest of the GameManager code...
     public void DeductLife(int amount)
     {
-        playerLife -= amount;
+        //playerLife -= amount;
         // Add your desired logic when the player loses a life (e.g., game over screen, restart level, etc.)
         Debug.Log("Player life: " + playerLife);
 
@@ -65,12 +70,12 @@ public class GameManager : MonoBehaviour
         ShowScore(score);
     }
 
-    private void ShowScore(int points)
+    private void ShowScore(float points)
     {
         textMeshPro.text = ""+points;
     }
 
-    public void ShowLife(int life)
+    public void ShowLife(float life)
     {
         switch (life)
         {

@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Reflection;
 using UnityEngine.UI;
 using System.Collections.Generic;
+using System;
 
 public class GetPublicVariables : MonoBehaviour
 {
@@ -31,9 +32,18 @@ public class GetPublicVariables : MonoBehaviour
         // Log the name and value of each public field to the console
         foreach (FieldInfo field in fields)
         {
-            Debug.Log(field.Name + ": " + field.GetValue(scriptToInspect));
-            FieldsName.Add(field.Name);
-            FieldsValues.Add((float)field.GetValue(scriptToInspect));
+            try
+            {
+             
+                Debug.Log(field.Name + ": " + field.GetValue(scriptToInspect));
+                FieldsName.Add(field.Name);
+                FieldsValues.Add((float)field.GetValue(scriptToInspect));
+                
+            }
+            catch (InvalidCastException)
+            {
+                Debug.LogWarning("Ignoring variable " + field.Name + " as it cannot be converted to float.");
+            }
         }
         SetToggleTexts();
         SetToggleTexts2();
@@ -56,10 +66,16 @@ public class GetPublicVariables : MonoBehaviour
         // Log the name and value of each public field to the console
         foreach (FieldInfo field in fields)
         {
-            FieldsValues[i] = (float)field.GetValue(scriptToInspect);
-        
-            Debug.Log("Print value saved"+ (float)field.GetValue(scriptToInspect));
-            
+            try
+            {
+                FieldsValues[i] = (float)field.GetValue(scriptToInspect);
+
+                Debug.Log("Print value saved" + (float)field.GetValue(scriptToInspect));
+            }
+            catch (InvalidCastException)
+            {
+                Debug.LogWarning("Ignoring variable " + field.Name + " as it cannot be converted to float.");
+            }
             i++;
         }
     }
