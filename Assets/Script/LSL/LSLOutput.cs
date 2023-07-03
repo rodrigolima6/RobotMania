@@ -18,22 +18,49 @@ public class LSLOutput : MonoBehaviour
     public Sprite on;
     public Sprite off;
     public TextConsole Console;
+
+    public Text inputName;
+    public Text inputType;
+    public Text inputID;
+
     public string StreamName = "Unity.ExampleStream";
     public string StreamType = "Unity.StreamType";
     public string StreamId = "MyStreamID-Unity1234";
 
+    private const float DesiredFrequency = 90f;
+    private const float FixedDeltaTime = 1f / DesiredFrequency;
+
     // Start is called before the first frame update
+    void Awake()
+    {
+        Time.fixedDeltaTime = FixedDeltaTime;
+    }
+
     void Start()
     {
-        
+        if (Prefer.autoplay_on)
+        {
+            StartStream();
+            Start_Stop = true;
+            Debug.Log("dsdad");
+     
+        }
         //InitStream();
     }
 
-
-    // FixedUpdate is a good hook for objects that are governed mostly by physics (gravity, momentum).
-    // Update might be better for objects that are governed by code (stimulus, event).
-    void FixedUpdate()
+    public void ChangeStringBasedOnInput()
     {
+        StreamName = inputName.text;
+        StreamType = inputType.text;
+        StreamId = inputID.text;
+    }
+
+        // FixedUpdate is a good hook for objects that are governed mostly by physics (gravity, momentum).
+        // Update might be better for objects that are governed by code (stimulus, event).
+        void FixedUpdate()
+    {
+       
+        
         if (Start_Stop) {
             Vector3 pos = gameObject.transform.position;
             int i = 0, i2 = 0;

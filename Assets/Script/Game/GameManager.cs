@@ -11,8 +11,21 @@ public class GameManager : MonoBehaviour
     [SerializeField] private List<Sprite> Hearts_Sprite;
     [SerializeField] private Image Hearts;
     private Bounds ScreenBounds;
+
+    //Inputs
     public float playerLife = 3;
     public float score = 0;
+    public float time = 0.0f;
+
+    //Outputs
+    public float ballSpeed = 0.0f;
+    public float ballSpawnRate = 0.0f; 
+    public float lifeSpawnRate = 0.0f;
+
+    public static float SballSpeed = 0.0f;
+    public static float SballSpawnRate = 0.0f;
+    public static float SlifeSpawnRate = 0.0f;
+
 
     private void Awake()
     {
@@ -35,7 +48,14 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public Bounds getScreenBounds()
+    private void FixedUpdate()
+    {
+            SballSpeed = ballSpeed;
+            SballSpawnRate = ballSpawnRate;
+            SlifeSpawnRate = SlifeSpawnRate;
+    }
+
+public Bounds getScreenBounds()
     {
         return ScreenBounds;
     }
