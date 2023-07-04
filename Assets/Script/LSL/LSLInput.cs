@@ -2,48 +2,64 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using LSL;
-using System;
 
 public class LSLInput : MonoBehaviour
 {
-    private StreamInlet inlet;
-    public int channelCount = 0;
+    public string StreamType = "PyflowStream";
+    public float scaleInput = 0.1f;
 
+    StreamInfo[] streamInfos;
+    StreamInlet streamInlet;
 
-    void Start()
+    float[] sample;
+    string[] channels;
+    private int channelCount = 0;
+    private XMLElement channelgroup;
+
+    void Update()
     {
-        // Create a new LSL stream inlet
-        inlet = new StreamInlet(new StreamInfo("Stream", "stream12", 3, 50, LSL.channel_format_t.cf_float32));
 
-        if (inlet != null)
+        if (streamInlet == null)
         {
-            StreamInfo info = inlet.info();
-
-            // Get the number of channels
-           channelCount = info.channel_count();
-            // Start a separate thread to continuously read samples
-            System.Threading.Thread lslThread = new System.Threading.Thread(ReadSamples);
-            lslThread.Start();
+            streamInfos = LSL.LSL.resolve_stream("type", StreamType, 1, 0.0);
+            if (streamInfos.Length > 0)
+            {
+                streamInlet = new StreamInlet(streamInfos[0]);
+                channelCount = streamInlet.info().channel_count();
+                channels = new string[channelCount];
+                channelgroup = streamInlet.info().desc().child("channels").child("channel");
+                for (int i = 0; i < channelCount; i++)
+                {
+                    Debug.Log("channel name:"+ channelgroup.child_value("label") + " |loop i="+i);
+                    channels[i]=channelgroup.child_value("label");
+                    channelgroup=channelgroup.next_sibling();
+                }
+                streamInlet.open_stream();
+            }
         }
-        else
+       
+        if (streamInlet != null)
         {
-            Debug.LogError("No streams found!");
+            sample = new float[channelCount];
+            double lastTimeStamp = streamInlet.pull_sample(sample, 0.0f);
+            if (lastTimeStamp != 0.0)
+            {
+                Process(sample, lastTimeStamp);
+                while ((lastTimeStamp = streamInlet.pull_sample(sample, 0.0f)) != 0)
+                {
+                    Process(sample, lastTimeStamp);
+                }
+            }
         }
+       
     }
-
-    void ReadSamples()
+    void Process(float[] newSample, double timeStamp)
     {
-        while (true)
-        {
-            // Read a sample from the inlet
-            float[] sample = new float[channelCount];
-            double timestamp = 0;
-            inlet.pull_sample(sample, 9);
-
-            // Process the sample data here
-            // ...
-
-            Debug.Log("Sample received: " + string.Join(", ", sample));
+        int i = 0;
+        foreach (float sample in newSample){
+            //Debug.Log("Updating var loop i=" + i);
+            GetPublicVariables.SetValueofOutput(channels[i],sample);
+            i++;
         }
     }
 }

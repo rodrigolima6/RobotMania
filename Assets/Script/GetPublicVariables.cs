@@ -7,16 +7,23 @@ using System;
 public class GetPublicVariables : MonoBehaviour
 {
     public MonoBehaviour scriptToInspect; // The script to inspect, set in the Inspector window
+    public static MonoBehaviour script2;
+
     public List<GameObject> InputObject;
     public List<GameObject> OutputObject;
+
     public List<Toggle> Input = new List<Toggle>();
     public List<Toggle> Output = new List<Toggle>();
-    public static int Number_Input = 0, Number_Output = 0;
+
     public static List<bool> Input_On = new List<bool>();
     public static List<bool> Output_On = new List<bool>();
+
     public static List<string> FieldsName = new List<string>();
     public static List<float> FieldsValues = new List<float>();
-    public FieldInfo[] fields;
+
+    public static int Number_Input = 0, Number_Output = 0;
+
+    public static FieldInfo[] fields;
 
     private void Start()
     {
@@ -25,7 +32,7 @@ public class GetPublicVariables : MonoBehaviour
             Debug.LogError("Please set the scriptToInspect field in the Inspector window.");
             return;
         }
-
+        script2 = scriptToInspect;
         // Get all public instance fields defined in the script
         fields = scriptToInspect.GetType().GetFields(BindingFlags.Public | BindingFlags.Instance);
 
@@ -34,7 +41,6 @@ public class GetPublicVariables : MonoBehaviour
         {
             try
             {
-             
                 Debug.Log(field.Name + ": " + field.GetValue(scriptToInspect));
                 FieldsName.Add(field.Name);
                 FieldsValues.Add((float)field.GetValue(scriptToInspect));
@@ -56,7 +62,7 @@ public class GetPublicVariables : MonoBehaviour
             Debug.LogError("Please set the scriptToInspect field in the Inspector window.");
             return;
         }
-        
+        script2 = scriptToInspect;
     }
 
     private void FixedUpdate()
@@ -70,11 +76,11 @@ public class GetPublicVariables : MonoBehaviour
             {
                 FieldsValues[i] = (float)field.GetValue(scriptToInspect);
 
-                Debug.Log("Print value saved" + (float)field.GetValue(scriptToInspect));
+                // Debug.Log("Print value saved" + (float)field.GetValue(scriptToInspect));
             }
             catch (InvalidCastException)
             {
-                Debug.LogWarning("Ignoring variable " + field.Name + " as it cannot be converted to float.");
+                //Debug.LogWarning("Ignoring variable " + field.Name + " as it cannot be converted to float.");
             }
             i++;
         }
@@ -85,7 +91,7 @@ public class GetPublicVariables : MonoBehaviour
         for (int i = 0; i < Input.Count; i++)
         {
             if (i<= fields.Length-1) {
-                Debug.Log("i=" + i);
+               
                 Input[i].GetComponentInChildren<Text>().text = fields[i].Name;
             }
             else
@@ -108,6 +114,26 @@ public class GetPublicVariables : MonoBehaviour
                 OutputObject[i].SetActive(false);
             }
 
+        }
+    }
+
+    public static void SetValueofOutput(string keys,float value)
+    {
+        int i = 0;
+        
+        foreach (FieldInfo field in fields){
+            
+            if (Output_On[i])
+            {
+
+                // Debug.Log("Flag3- Has the same name" + field.Name + "=" + keys);
+                if (keys==field.Name)
+                {
+                   // Debug.Log("Flag4- Has the same name" + field.Name + "="+ keys);
+                    field.SetValue(script2, value);
+                }
+            }
+            i++;
         }
     }
     

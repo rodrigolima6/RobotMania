@@ -27,7 +27,7 @@ public class LSLOutput : MonoBehaviour
     public string StreamType = "Unity.StreamType";
     public string StreamId = "MyStreamID-Unity1234";
 
-    private const float DesiredFrequency = 90f;
+    private const float DesiredFrequency = 20f;
     private const float FixedDeltaTime = 1f / DesiredFrequency;
 
     // Start is called before the first frame update
@@ -43,7 +43,6 @@ public class LSLOutput : MonoBehaviour
             StartStream();
             Start_Stop = true;
             Debug.Log("dsdad");
-     
         }
         //InitStream();
     }
@@ -57,10 +56,8 @@ public class LSLOutput : MonoBehaviour
 
         // FixedUpdate is a good hook for objects that are governed mostly by physics (gravity, momentum).
         // Update might be better for objects that are governed by code (stimulus, event).
-        void FixedUpdate()
+    void FixedUpdate()
     {
-       
-        
         if (Start_Stop) {
             Vector3 pos = gameObject.transform.position;
             int i = 0, i2 = 0;

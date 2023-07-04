@@ -65,7 +65,7 @@ public Bounds getScreenBounds()
     {
         //playerLife -= amount;
         // Add your desired logic when the player loses a life (e.g., game over screen, restart level, etc.)
-        Debug.Log("Player life: " + playerLife);
+        //Debug.Log("Player life: " + playerLife);
 
         ShowLife(playerLife);
 
