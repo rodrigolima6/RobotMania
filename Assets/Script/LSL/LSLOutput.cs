@@ -27,7 +27,7 @@ public class LSLOutput : MonoBehaviour
     public string StreamType = "Unity.StreamType";
     public string StreamId = "MyStreamID-Unity1234";
 
-    private const float DesiredFrequency = 20f;
+    private const float DesiredFrequency = 100f;
     private const float FixedDeltaTime = 1f / DesiredFrequency;
 
     // Start is called before the first frame update
@@ -64,6 +64,7 @@ public class LSLOutput : MonoBehaviour
             
             foreach (float Variab in GetPublicVariables.FieldsValues)
             {
+                
                 if (GetPublicVariables.Input_On[i])
                 {
                     currentSample[i2] = Variab;
@@ -101,9 +102,6 @@ public class LSLOutput : MonoBehaviour
             foreach (string Variab in GetPublicVariables.FieldsName){
                 chans.append_child("channel").append_child_value("label", Variab);
             }
-            //chans.append_child("channel").append_child_value("label", GetPublicVariables.FieldsName[0]);
-            //chans.append_child("channel").append_child_value("label", GetPublicVariables.FieldsName[1]);
-            //chans.append_child("channel").append_child_value("label", GetPublicVariables.FieldsName[2]);
             Console.WriteInConsole("--------------------------------------------------------");
             Console.WriteInConsole("Stream Name: "+StreamName);
             Console.WriteInConsole("Stream Type: " + StreamType );

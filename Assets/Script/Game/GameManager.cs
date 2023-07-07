@@ -44,6 +44,7 @@ public class GameManager : MonoBehaviour
     {
         if (TimeChecker.HasFiveMinutesPassed())
         {
+            Debug.Log("Hi");
             UniversalFunctions.ChangeScene("Menu");
         }
     }

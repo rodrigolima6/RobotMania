@@ -7,8 +7,8 @@ public class MoveImage : MonoBehaviour
     public Image image;
 
     // Target positions
-    private Vector3 startPosition = new Vector3(0, 0, 0);
-    private Vector3 endPosition = new Vector3(5000, 0, 0);
+    private Vector3 startPosition = new Vector3(400, 270, 0);
+    private Vector3 endPosition = new Vector3(6000, 0, 0);
 
     // Flag to check if the image is currently moving
     private bool isMoving = false;
