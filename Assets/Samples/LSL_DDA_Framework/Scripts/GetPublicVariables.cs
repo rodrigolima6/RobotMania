@@ -43,14 +43,14 @@ public class GetPublicVariables : MonoBehaviour
         {
             try
             {
-                Debug.Log(field.Name + ": " + field.GetValue(scriptToInspect));
+                //Debug.Log(field.Name + ": " + field.GetValue(scriptToInspect));
                 FieldsName.Add(field.Name);
                 FieldsValues.Add((float)field.GetValue(scriptToInspect));
                 
             }
             catch (InvalidCastException)
             {
-                Debug.LogWarning("Ignoring variable " + field.Name + " as it cannot be converted to float.");
+                //Debug.LogWarning("Ignoring variable " + field.Name + " as it cannot be converted to float.");
             }
         }
         SetToggleTexts();

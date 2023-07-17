@@ -42,7 +42,7 @@ public class LSLOutput : MonoBehaviour
         {
             StartStream();
             Start_Stop = true;
-            Debug.Log("dsdad");
+            //Debug.Log("dsdad");
         }
         //InitStream();
     }
@@ -64,16 +64,26 @@ public class LSLOutput : MonoBehaviour
             
             foreach (float Variab in GetPublicVariables.FieldsValues)
             {
-                
-                if (GetPublicVariables.Input_On[i])
+                if (GetPublicVariables.Input_On.Count != 0) {
+                    if (GetPublicVariables.Input_On[i])
+                    {
+                        currentSample[i2] = Variab;
+                        i2++;
+                    }
+                }
+                else
                 {
-                    currentSample[i2] = Variab;
-                    i2++;
+                    
+                    Start_Stop = false;
+                    break;
                 }
                 i++;
             }
-          
-            outlet.push_sample(currentSample);
+
+            if (GetPublicVariables.Input_On.Count != 0)
+            {
+                outlet.push_sample(currentSample);
+            }
         }
     }
 
@@ -114,6 +124,7 @@ public class LSLOutput : MonoBehaviour
         }
         else
         {
+            Start_Stop = false;
             Console.WriteInConsole("Intiliazation of the stream failed 0 channels");
         }
     }
