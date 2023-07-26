@@ -27,7 +27,7 @@ public class LSLOutput : MonoBehaviour
     public string StreamType = "Unity.StreamType";
     public string StreamId = "MyStreamID-Unity1234";
 
-    private const float DesiredFrequency = 100f;
+    public const float DesiredFrequency = 200f;
     private const float FixedDeltaTime = 1f / DesiredFrequency;
 
     // Start is called before the first frame update
@@ -107,7 +107,7 @@ public class LSLOutput : MonoBehaviour
         if (GetPublicVariables.Number_Input!=0) {
             Start_Stop = true;
             Signal.sprite = on;
-            StreamInfo streamInfo = new StreamInfo(StreamName, StreamType, GetPublicVariables.Number_Input, 50, LSL.channel_format_t.cf_float32);
+            StreamInfo streamInfo = new StreamInfo(StreamName, StreamType, GetPublicVariables.Number_Input, DesiredFrequency, LSL.channel_format_t.cf_float32);
             XMLElement chans = streamInfo.desc().append_child("channels");
             foreach (string Variab in GetPublicVariables.FieldsName){
                 chans.append_child("channel").append_child_value("label", Variab);

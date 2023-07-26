@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class TimeChecker : MonoBehaviour
 {
-    private static  float startTime;
+    private static float startTime;
+    public static float elapsedTime;
 
     private void Awake()
     {
@@ -17,7 +18,7 @@ public class TimeChecker : MonoBehaviour
     public static bool HasFiveMinutesPassed()
     {
         // Calculate the elapsed time since the starting time
-        float elapsedTime = Time.time - startTime;
+        elapsedTime = Time.time - startTime;
 
         // Check if five minutes (300 seconds) have passed
         if (elapsedTime >= 300f)

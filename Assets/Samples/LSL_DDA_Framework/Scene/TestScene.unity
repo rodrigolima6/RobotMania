@@ -242,10 +242,10 @@ RectTransform:
   m_Father: {fileID: 1389342671}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -22.974304, y: -279.7}
-  m_SizeDelta: {x: 477.3324, y: 83.846}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: -22.974304, y: 39}
+  m_SizeDelta: {x: 300, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &110172291
 MonoBehaviour:
@@ -344,6 +344,17 @@ CanvasRenderer:
 --- !u!114 &125849577 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6134683983967647514, guid: cc85b3531b377d14a9c8f6087bf07cbb, type: 3}
+  m_PrefabInstance: {fileID: 1727018130}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &179534217 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 802245219384379067, guid: cc85b3531b377d14a9c8f6087bf07cbb, type: 3}
   m_PrefabInstance: {fileID: 1727018130}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
@@ -669,6 +680,7 @@ MonoBehaviour:
   SyncTest: 0
   ConsistencyTest: 0
   DelayTest: 0
+  Increase: 0
   SyncTest2: 0
   ConsistencyTest2: 0
   DelayTest2: 0
@@ -705,11 +717,51 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4625f32951c7804ebc2fd6a33a14923, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  autoplay: {fileID: 0}
-  inputs: []
-  outputs: []
-  input_keys: []
-  output_keys: []
+  autoplay: {fileID: 179534217}
+  inputs:
+  - {fileID: 346344110}
+  - {fileID: 1833893721}
+  - {fileID: 727037573}
+  - {fileID: 1376554691}
+  - {fileID: 445408251}
+  - {fileID: 1158703537}
+  - {fileID: 2112920083}
+  - {fileID: 440032849}
+  - {fileID: 747534759}
+  - {fileID: 1954124854}
+  outputs:
+  - {fileID: 348021349}
+  - {fileID: 298117325}
+  - {fileID: 852315204}
+  - {fileID: 981162885}
+  - {fileID: 125849577}
+  - {fileID: 1634224218}
+  - {fileID: 1439415986}
+  - {fileID: 508850776}
+  - {fileID: 1944239513}
+  - {fileID: 1632283563}
+  input_keys:
+  - In1
+  - In2
+  - In3
+  - In4
+  - In5
+  - In6
+  - In7
+  - In8
+  - In9
+  - In10
+  output_keys:
+  - Out1
+  - Out2
+  - Out3
+  - Out4
+  - Out5
+  - Out6
+  - Out7
+  - Out8
+  - Out9
+  - Out10
 --- !u!114 &727037573 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6134683984231480793, guid: cc85b3531b377d14a9c8f6087bf07cbb, type: 3}

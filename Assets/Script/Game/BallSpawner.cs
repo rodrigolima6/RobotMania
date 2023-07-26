@@ -18,8 +18,8 @@ public class BallSpawner : MonoBehaviour
 
     private void SpawnBallWithDelay()
     {
-        int randomInt = Random.Range(1, 100);
-        if (randomInt>=40)
+        int randomInt = Random.Range(1, 10);
+        if (randomInt>=GameManager.SballSpawnRate)
         {
             Instantiate(ballPrefab, transform.position, Quaternion.identity);
         }

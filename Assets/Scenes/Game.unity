@@ -176,9 +176,9 @@ MonoBehaviour:
   playerLife: 3
   score: 0
   time: 0
-  ballSpeed: 0
-  ballSpawnRate: 0
-  lifeSpawnRate: 0
+  ballSpeed: 10
+  ballSpawnRate: 8
+  lifeSpawnRate: 9
 --- !u!4 &42767486
 Transform:
   m_ObjectHideFlags: 0

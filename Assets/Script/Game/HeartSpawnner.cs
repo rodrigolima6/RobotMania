@@ -18,8 +18,8 @@ public class HeartSpawnner : MonoBehaviour
     {
         if (HasOneMinutesPassed()) {
             startTime = Time.time;
-            int randomInt = Random.Range(1, 100);
-            if (randomInt >= 50)
+            int randomInt = Random.Range(1, 10);
+            if (randomInt >= GameManager.SlifeSpawnRate)
             {
                 SpawnHeart();
             }

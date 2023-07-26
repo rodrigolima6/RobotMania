@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 31157f44924818d47baba30123a5ac3c
+  - enabled: 0
+    path: Assets/Samples/LSL_DDA_Framework/Scene/TestScene.unity
+    guid: 507edb43f88352d409829fd70de77eb0
   m_configObjects: {}

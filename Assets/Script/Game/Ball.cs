@@ -11,6 +11,8 @@ public class Ball : MonoBehaviour
     private void Start()
     {
         // Set a random direction for the ball
+        speed = GameManager.SballSpeed/10;
+        Debug.Log("Speed ="+speed+"| Ball Speed = " + GameManager.SballSpeed);
         Vector2 randomDirection = Random.insideUnitCircle.normalized;
         GetComponent<Rigidbody2D>().velocity = randomDirection * speed;
     }

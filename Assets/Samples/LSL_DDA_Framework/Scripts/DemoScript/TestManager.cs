@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TestManager : MonoBehaviour
 {
-    public float SyncTest = 0, ConsistencyTest = 0, DelayTest = 0;
+    public float SyncTest = 0, ConsistencyTest = 0, DelayTest = 0, Increase = 0;
     public float SyncTest2 = 0, ConsistencyTest2 = 0, DelayTest2 = 0;
 
     // Start is called before the first frame update
@@ -29,6 +29,7 @@ public class TestManager : MonoBehaviour
         {
             DelayTest = 0;
         }
+        
     }
 
     public void press()
@@ -46,6 +47,7 @@ public class TestManager : MonoBehaviour
             //Debug.Log("Variable value changed to: " + ConsistencyTest);
             yield return new WaitForSeconds(1f);
             DelayTest = 0;
+            Increase++;
         }
     }
 }
