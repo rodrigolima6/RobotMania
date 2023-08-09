@@ -23,7 +23,7 @@ public class Heart : MonoBehaviour {
 
     private void OnMouseDown()
     {
-        GameManager.Instance.IncreaseScore(100);
+        GameManager.Instance.IncreaseLife(1);
         Destroy(gameObject);
     }
 }

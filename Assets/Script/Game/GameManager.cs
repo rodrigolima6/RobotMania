@@ -23,6 +23,10 @@ public class GameManager : MonoBehaviour
     public float lifeSpawnRate = 8.0f;
 
     //Outputs global variables
+    public static float SplayerLife = 10.0f;
+    public static float Sscore = 4.0f;
+    public static float Stime = 8.0f;
+
     public static float SballSpeed = 10.0f;
     public static float SballSpawnRate = 4.0f;
     public static float SlifeSpawnRate = 8.0f;
@@ -55,11 +59,16 @@ public class GameManager : MonoBehaviour
             SballSpeed = ballSpeed;
             SballSpawnRate = ballSpawnRate;
             SlifeSpawnRate = lifeSpawnRate;
+            
             time = 300-TimeChecker.elapsedTime;
 
-            //Debug.Log("ballSpeed = " + ballSpeed + "=" + SballSpeed);
-            //Debug.Log("ballSpawnRate = " + ballSpawnRate + "=" + SballSpawnRate);
-            //Debug.Log("lifeSpawnRate = " + lifeSpawnRate + "=" + SlifeSpawnRate);
+            SplayerLife = playerLife;
+            Sscore = score;
+            Stime = time;
+
+        //Debug.Log("ballSpeed = " + ballSpeed + "=" + SballSpeed);
+        //Debug.Log("ballSpawnRate = " + ballSpawnRate + "=" + SballSpawnRate);
+        //Debug.Log("lifeSpawnRate = " + lifeSpawnRate + "=" + SlifeSpawnRate);
     }
 
 public Bounds getScreenBounds()
@@ -79,14 +88,18 @@ public Bounds getScreenBounds()
         if (playerLife <= 0)
         {
             playerLife = 1;
-            //UniversalFunctions.ChangeScene("Menu");
+            UniversalFunctions.ChangeScene("Menu 1");
         }
         ShowLife(playerLife);
     }
 
     public void IncreaseLife(int amount)
     {
-        playerLife += amount;
+        if (playerLife!=3)
+        {
+            playerLife += amount;
+        }
+        
         // Add your desired logic when the player loses a life (e.g., game over screen, restart level, etc.)
         //Debug.Log("Player life: " + playerLife);
 

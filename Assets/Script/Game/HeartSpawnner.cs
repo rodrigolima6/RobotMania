@@ -50,7 +50,7 @@ public class HeartSpawnner : MonoBehaviour
         float elapsedTime = Time.time - startTime;
 
         // Check if five minutes (300 seconds) have passed
-        if (elapsedTime >= 20f)
+        if (elapsedTime >= 10f)
         {
             return true;
         }
