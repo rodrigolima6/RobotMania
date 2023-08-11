@@ -82,7 +82,7 @@ public class Prefer : MonoBehaviour
 
 
         // Use the toggleValue as needed
-        Debug.Log("Toggle value: " + autoplay.isOn);
+       // Debug.Log("Toggle value: " + autoplay.isOn);
 
     }
 }

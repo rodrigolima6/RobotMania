@@ -8,24 +8,30 @@ public class Ball : MonoBehaviour
     public int damage = 1;
     private float maxScale = 0.65f;
 
+    private float startTime;
+    private float elapsedTime=0;
+
     private void Start()
     {
+
         // Set a random direction for the ball
         speed = GameManager.SballSpeed/10;
-        Debug.Log("Speed ="+speed+"| Ball Speed = " + GameManager.SballSpeed);
+        //Debug.Log("Speed ="+speed+"| Ball Speed = " + GameManager.SballSpeed);
         Vector2 randomDirection = Random.insideUnitCircle.normalized;
         GetComponent<Rigidbody2D>().velocity = randomDirection * speed;
+        startTime = Time.time;
     }
 
     private void Update()
     {
         // Scale the ball
         transform.localScale += new Vector3(growthRate, growthRate, growthRate) * Time.deltaTime;
-
+        elapsedTime = Time.time - startTime;
         // Check if the ball should disappear
         if (transform.localScale.x >= maxScale)
         {
             // Remove the ball and deduct player's life
+            GameManager.Set_Reflexes(elapsedTime);
             Destroy(gameObject);
             GameManager.Instance.DeductLife(damage);
         }
@@ -35,6 +41,7 @@ public class Ball : MonoBehaviour
     private void OnMouseDown()
     {
         GameManager.Instance.IncreaseScore(100);
+        GameManager.Set_Reflexes(elapsedTime);
         Destroy(gameObject);
     }
 

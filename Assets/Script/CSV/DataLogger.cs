@@ -18,7 +18,7 @@ public class DataLogger : MonoBehaviour
         filePath = Application.dataPath + "/"+Name+".csv";
 
         // Initialize the CSV file with headers
-        dataRows.Add("Timestamp,Score,Time,Life,Ball Speed, Ball Spawn Rate, Life Spawn Rate, SCalculation1, SCalculation2, SCalculation3, SCalculation4, SCalculation5, SCalculation6, SCalculation7, SCalculation8, SCalculation9, SCalculation10, SCalculation11, SCalculation12, SCalculation13");
+        dataRows.Add("Timestamp,Score,Time,Life,Score/10s,Life/10s,Reflexes,Ball Speed, Ball Spawn Rate, Life Spawn Rate");
 
         // Start the data logging coroutine
         StartCoroutine(LogData());
@@ -28,26 +28,11 @@ public class DataLogger : MonoBehaviour
     {
         while (true)
         {
-            float SCalculation1 = (GameManager.Sscore + GameManager.SplayerLife * 10) / GameManager.Stime;
-            float SCalculation2 = (GameManager.Sscore + GameManager.SplayerLife * 10) / (GameManager.Stime / 2);
-            float SCalculation3 = (GameManager.Sscore + GameManager.SplayerLife * 10) / (GameManager.Stime / 4);
 
-            float SCalculation4 = (GameManager.Sscore + GameManager.SplayerLife * 100) / GameManager.Stime;
-            float SCalculation5 = (GameManager.Sscore + GameManager.SplayerLife * 100) / (GameManager.Stime / 2);
-            float SCalculation6 = (GameManager.Sscore + GameManager.SplayerLife * 100) / (GameManager.Stime / 4);
-
-            float SCalculation7 = (GameManager.Sscore + GameManager.SplayerLife * 50) / GameManager.Stime;
-            float SCalculation8 = (GameManager.Sscore + GameManager.SplayerLife * 50) / (GameManager.Stime / 2);
-            float SCalculation9 = (GameManager.Sscore + GameManager.SplayerLife * 50) / (GameManager.Stime / 4);
-
-            float SCalculation10 = ((GameManager.Sscore/10) + (300-(GameManager.SplayerLife * 100)) + (300-GameManager.Stime))/3;
-            float SCalculation11 = ((GameManager.Sscore / 10) + (400 - (GameManager.SplayerLife * 100)) + (300 - GameManager.Stime)) / 3;
-            float SCalculation12 = ((GameManager.Sscore / 20) + (300 - (GameManager.SplayerLife * 100)) + (300 - GameManager.Stime)) / 3;
-            float SCalculation13 = ((GameManager.Sscore / 20) + (400 - (GameManager.SplayerLife * 100)) + (300 - GameManager.Stime)) / 3;
 
             // Simulate receiving data (replace this with your actual data source)
-            string newData = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") + "," + GameManager.Sscore + "," + GameManager.Stime + "," + GameManager.SplayerLife + "," + GameManager.SballSpeed + "," + GameManager.SballSpawnRate + "," + GameManager.SlifeSpawnRate + "," + SCalculation1 + "," + SCalculation2 + "," + SCalculation3 + "," + SCalculation4 + "," + SCalculation5 + "," + SCalculation6 + "," + SCalculation7 + "," + SCalculation8 + "," + SCalculation9 + "," + SCalculation10 + "," + SCalculation11 + "," + SCalculation12 + "," + SCalculation13;
-
+             string newData = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") + "," + GameManager.Sscore + "," + GameManager.Stime + "," + GameManager.SplayerLife + ","+ GameManager.SscorePsecond + "," + GameManager.SLifePsecond + "," + GameManager.SReflexes + "," + GameManager.SballSpeed + "," + GameManager.SballSpawnRate + "," + GameManager.SlifeSpawnRate;
+            //Debug.Log(newData);
             // Add the new data to the list
             dataRows.Add(newData);
 

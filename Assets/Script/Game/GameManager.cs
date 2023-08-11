@@ -23,6 +23,10 @@ public class GameManager : MonoBehaviour
     public float lifeSpawnRate = 8.0f;
 
     //Outputs global variables
+    public static float SscorePsecond = 0f;
+    public static float SLifePsecond = 0f;
+    public static float SReflexes = 0f;
+
     public static float SplayerLife = 10.0f;
     public static float Sscore = 4.0f;
     public static float Stime = 8.0f;
@@ -30,6 +34,11 @@ public class GameManager : MonoBehaviour
     public static float SballSpeed = 10.0f;
     public static float SballSpawnRate = 4.0f;
     public static float SlifeSpawnRate = 8.0f;
+
+    //tools 
+    private float ten_second = 0;
+    private float one_second = 0;
+    private float last_score = 0;
 
 
     private void Awake()
@@ -50,7 +59,7 @@ public class GameManager : MonoBehaviour
         if (TimeChecker.HasFiveMinutesPassed())
         {
             
-            UniversalFunctions.ChangeScene("Menu");
+            UniversalFunctions.ChangeScene("Menu 1");
         }
     }
 
@@ -61,7 +70,13 @@ public class GameManager : MonoBehaviour
             SlifeSpawnRate = lifeSpawnRate;
             
             time = 300-TimeChecker.elapsedTime;
-
+            if (TimeChecker.elapsedTime-one_second >= 2){
+                SscorePsecond = ((score - last_score) + SscorePsecond) / 2;
+                SLifePsecond = (playerLife + SLifePsecond) / 2;
+                last_score = score;
+                one_second = TimeChecker.elapsedTime;
+            }
+            
             SplayerLife = playerLife;
             Sscore = score;
             Stime = time;
@@ -71,10 +86,22 @@ public class GameManager : MonoBehaviour
         //Debug.Log("lifeSpawnRate = " + lifeSpawnRate + "=" + SlifeSpawnRate);
     }
 
-public Bounds getScreenBounds()
+    public static void Set_Reflexes(float reflex)
     {
-        return ScreenBounds;
+        if (SReflexes==0)
+        {
+            SReflexes = reflex;
+            return;
+        }
+        SReflexes = (reflex + SReflexes) / 2;
+       
     }
+
+
+    public Bounds getScreenBounds()
+        {
+            return ScreenBounds;
+        }
 
     // Rest of the GameManager code...
     public void DeductLife(int amount)
@@ -88,7 +115,7 @@ public Bounds getScreenBounds()
         if (playerLife <= 0)
         {
             playerLife = 1;
-            UniversalFunctions.ChangeScene("Menu 1");
+            //UniversalFunctions.ChangeScene("Menu 1"); 
         }
         ShowLife(playerLife);
     }
@@ -101,7 +128,7 @@ public Bounds getScreenBounds()
         }
         
         // Add your desired logic when the player loses a life (e.g., game over screen, restart level, etc.)
-        //Debug.Log("Player life: " + playerLife);
+        Debug.Log("Player life: " + playerLife);
 
         ShowLife(playerLife);
     }
