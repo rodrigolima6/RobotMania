@@ -8,24 +8,30 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
     [SerializeField] private TextMeshProUGUI textMeshPro;
+    [SerializeField] private TextMeshProUGUI Timer;
     [SerializeField] private List<Sprite> Hearts_Sprite;
     [SerializeField] private Image Hearts;
     private Bounds ScreenBounds;
 
     //Inputs
-    public float playerLife = 3;
-    public float score = 0;
-    public float time = 0.0f;
+    private float playerLife = 3;
+    private float score = 0;
+    private float time = 0.0f;
+
+    public float ScorePsecond = 0f;
+    public float LifePsecond = 0f;
+    public float ReactTime = 0f;
 
     //Outputs
     public float ballSpeed = 10.0f;
     public float ballSpawnRate = 4.0f; 
     public float lifeSpawnRate = 8.0f;
+    public float circleFade = 0.9f;
 
     //Outputs global variables
     public static float SscorePsecond = 0f;
     public static float SLifePsecond = 0f;
-    public static float SReflexes = 0f;
+    public static float SReactTime = 0f;
 
     public static float SplayerLife = 10.0f;
     public static float Sscore = 4.0f;
@@ -36,7 +42,7 @@ public class GameManager : MonoBehaviour
     public static float SlifeSpawnRate = 8.0f;
 
     //tools 
-    private float ten_second = 0;
+
     private float one_second = 0;
     private float last_score = 0;
 
@@ -45,6 +51,8 @@ public class GameManager : MonoBehaviour
     {
         if (Instance == null)
             Instance = this;
+
+        ImageScaler.scaleMultiplier = circleFade;
 
         // Calculate the screen bounds
         float screenAspect = (float)Screen.width / Screen.height;
@@ -65,21 +73,31 @@ public class GameManager : MonoBehaviour
 
     private void FixedUpdate()
     {
-            SballSpeed = ballSpeed;
-            SballSpawnRate = ballSpawnRate;
-            SlifeSpawnRate = lifeSpawnRate;
+        SballSpeed = ballSpeed;
+        SballSpawnRate = ballSpawnRate;
+        SlifeSpawnRate = lifeSpawnRate;
+
+        ImageScaler.scaleMultiplier = circleFade;
+
+        time = 300-TimeChecker.elapsedTime;
+
+        if (TimeChecker.elapsedTime-one_second >= 1){
+
             
-            time = 300-TimeChecker.elapsedTime;
-            if (TimeChecker.elapsedTime-one_second >= 2){
-                SscorePsecond = ((score - last_score) + SscorePsecond) / 2;
-                SLifePsecond = (playerLife + SLifePsecond) / 2;
-                last_score = score;
-                one_second = TimeChecker.elapsedTime;
-            }
-            
-            SplayerLife = playerLife;
-            Sscore = score;
-            Stime = time;
+            SscorePsecond = ((score - last_score) + SscorePsecond) / 2;
+            SLifePsecond = (playerLife + SLifePsecond) / 2;
+            last_score = score;
+            one_second = TimeChecker.elapsedTime;
+        }
+        Timer.text = ""+(int)time;
+
+        ReactTime = SReactTime;
+        ScorePsecond = SscorePsecond;
+        LifePsecond = SLifePsecond;
+
+        SplayerLife = playerLife;
+        Sscore = score;
+        Stime = time;
 
         //Debug.Log("ballSpeed = " + ballSpeed + "=" + SballSpeed);
         //Debug.Log("ballSpawnRate = " + ballSpawnRate + "=" + SballSpawnRate);
@@ -88,13 +106,13 @@ public class GameManager : MonoBehaviour
 
     public static void Set_Reflexes(float reflex)
     {
-        if (SReflexes==0)
+        if (SReactTime==0)
         {
-            SReflexes = reflex;
+            SReactTime = reflex;
             return;
         }
-        SReflexes = (reflex + SReflexes) / 2;
-       
+        SReactTime = (reflex + SReactTime) / 2;
+        
     }
 
 

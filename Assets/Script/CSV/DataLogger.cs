@@ -31,7 +31,7 @@ public class DataLogger : MonoBehaviour
 
 
             // Simulate receiving data (replace this with your actual data source)
-             string newData = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") + "," + GameManager.Sscore + "," + GameManager.Stime + "," + GameManager.SplayerLife + ","+ GameManager.SscorePsecond + "," + GameManager.SLifePsecond + "," + GameManager.SReflexes + "," + GameManager.SballSpeed + "," + GameManager.SballSpawnRate + "," + GameManager.SlifeSpawnRate;
+             string newData = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") + "," + GameManager.Sscore + "," + GameManager.Stime + "," + GameManager.SplayerLife + ","+ GameManager.SscorePsecond + "," + GameManager.SLifePsecond + "," + GameManager.SReactTime + "," + GameManager.SballSpeed + "," + GameManager.SballSpawnRate + "," + GameManager.SlifeSpawnRate;
             //Debug.Log(newData);
             // Add the new data to the list
             dataRows.Add(newData);
