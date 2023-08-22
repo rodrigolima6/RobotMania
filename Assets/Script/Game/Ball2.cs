@@ -66,7 +66,12 @@ public class Ball2 : MonoBehaviour
         // Check if the ball is being looked at
         if (_gazeAwareComponent.HasGazeFocus)
         {
+            Debug.Log("IM NOT INVISIBLE");
             inplode_Attack();
+        }
+        else
+        {
+            Debug.Log("IM INVISIBLE");
         }
     }
 
