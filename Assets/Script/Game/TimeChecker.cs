@@ -6,6 +6,7 @@ public class TimeChecker : MonoBehaviour
 {
     private static float startTime;
     public static float elapsedTime;
+    private static bool TimerOn;
 
     private void Awake()
     {
@@ -13,10 +14,23 @@ public class TimeChecker : MonoBehaviour
         startTime = Time.time;
     }
 
+    private void Start()
+    {
+        TimerOn = false;
+        startTime = Time.time;
+    }
+
+
 
 
     public static bool HasFiveMinutesPassed()
     {
+        if (TimerOn == false)
+        {
+            TimerOn = true;
+            startTime = Time.time;
+        }
+
         // Calculate the elapsed time since the starting time
         elapsedTime = Time.time - startTime;
 
@@ -24,6 +38,7 @@ public class TimeChecker : MonoBehaviour
         if (elapsedTime >= 300f)
         {
             startTime = Time.time;
+            TimerOn = false;
             return true;
         }
         

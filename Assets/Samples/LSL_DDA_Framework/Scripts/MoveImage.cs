@@ -5,13 +5,12 @@ public class MoveImage : MonoBehaviour
 {
     // Reference to the image component
     public Image image;
-
-    // Target positions
-    private Vector3 startPosition = new Vector3(400, 270, 0);
     private Vector3 endPosition = new Vector3(6000, 0, 0);
 
     // Flag to check if the image is currently moving
     private bool isMoving = false;
+
+
 
     public void MoveImageToTargetPosition()
     {
@@ -19,7 +18,7 @@ public class MoveImage : MonoBehaviour
         {
             // Start moving the image
             isMoving = true;
-            image.transform.position = startPosition;
+            image.transform.position = new Vector3(Screen.width / 2f, Screen.height / 2f, 0);
 
         }
         else

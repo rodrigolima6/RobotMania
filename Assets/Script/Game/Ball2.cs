@@ -6,9 +6,6 @@ using Tobii.Gaming;
 [RequireComponent(typeof(GazeAware))]
 public class Ball2 : MonoBehaviour
 {
-
-    public List<Sprite> spriteList;
-
     private GazeAware _gazeAwareComponent;
     private SpriteRenderer spriteRenderer;
 
@@ -28,11 +25,14 @@ public class Ball2 : MonoBehaviour
     private float minInterval = 0.1f;
     private float intervalDecrement = 0.1f;
 
+    private Animator animator;
+
     private void Start()
     {
         _gazeAwareComponent = GetComponent<GazeAware>();
         spriteRenderer = GetComponent<SpriteRenderer>();
-        spriteRenderer.sprite = spriteList[currentIndex];
+
+        animator = GetComponent<Animator>();
 
         // Set a random direction for the ball
         speed = GameManager.SballSpeed / 10;
@@ -48,10 +48,12 @@ public class Ball2 : MonoBehaviour
         // Scale the ball
         transform.localScale += new Vector3(growthRate, growthRate, growthRate) * Time.deltaTime;
         elapsedTime = Time.time - startTime;
+
         // Check if the ball should disappear
         if (transform.localScale.x >= maxScale)
         {
             // Remove the ball and deduct player's life
+            
             GameManager.Set_Reflexes(elapsedTime);
             Destroy(gameObject);
             GameManager.Instance.DeductLife(damage);
@@ -64,23 +66,46 @@ public class Ball2 : MonoBehaviour
         // Check if the ball is being looked at
         if (_gazeAwareComponent.HasGazeFocus)
         {
-            GameManager.Instance.IncreaseScore(100);
-            GameManager.Set_Reflexes(elapsedTime);
-            Destroy(gameObject);
+            inplode_Attack();
         }
     }
 
-    private void ChangeSprite()
+    private void inplode_Attack()
     {
-        currentIndex = (currentIndex + 1) % spriteList.Count;
-        spriteRenderer.sprite = spriteList[currentIndex];
+        
+        GetComponent<Rigidbody>().velocity = Vector3.zero;
+        _gazeAwareComponent.enabled = false;
+        animator.Play("Atk_Implusion");
+
+        // Call a method to destroy the object after a delay (duration of the new animation)
+        float newAnimationDuration = CalculateNewAnimationDuration();
+   
+        DestroyObjectAfterDelay(0.35f);
     }
 
-    private void OnMouseDown()
+    private float CalculateNewAnimationDuration()
     {
+        // Here, you would calculate and return the duration of the new animation
+        // You can use animator.GetCurrentAnimatorStateInfo(0).length to get the length of the current state
+        // You might also want to add a small buffer time
+        // For example:
+        float bufferTime = 0.2f;
+        return animator.GetCurrentAnimatorStateInfo(0).length + bufferTime;
+    }
+
+    private void DestroyObjectAfterDelay(float delay)
+    {
+        // Destroy the object after the given delay
         GameManager.Instance.IncreaseScore(100);
         GameManager.Set_Reflexes(elapsedTime);
-        Destroy(gameObject);
+        Destroy(gameObject, delay);
+    }
+
+  
+    private void OnMouseDown()
+    {
+        inplode_Attack();
+        //Destroy(gameObject);
     }
 
     private void FixedUpdate()

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,6 +11,13 @@ public class Prefer : MonoBehaviour
     public List<Toggle> outputs;
     public List<string> input_keys;
     public List<string> output_keys;
+
+    [SerializeField]
+    private TMP_InputField inputName;
+    [SerializeField]
+    private TMP_InputField inputType;
+    [SerializeField]
+    private TMP_InputField inputID;
 
     private const string ToggleKey = "AutoPlay";
     public static bool autoplay_on = false;
@@ -29,8 +37,10 @@ public class Prefer : MonoBehaviour
 
     public void SavePreferences()
     {
-      
-  
+
+        PlayerPrefs.SetString("StreamName", inputName.text);
+        PlayerPrefs.SetString("StreamType", inputType.text);
+        PlayerPrefs.SetString("StreamID", inputID.text);
         PlayerPrefs.SetInt(ToggleKey, autoplay.isOn ? 1 : 0);
         
 
@@ -56,6 +66,18 @@ public class Prefer : MonoBehaviour
 
     public void LoadPreferences()
     {
+        if (PlayerPrefs.HasKey("StreamName"))
+        {
+            inputName.text = PlayerPrefs.GetString("StreamName");
+        }
+        if (PlayerPrefs.HasKey("StreamType"))
+        {
+            inputType.text = PlayerPrefs.GetString("StreamType");
+        }
+        if (PlayerPrefs.HasKey("StreamID"))
+        {
+            inputID.text = PlayerPrefs.GetString("StreamID");
+        }
 
         // Load the saved toggle value
         if (PlayerPrefs.HasKey(ToggleKey))

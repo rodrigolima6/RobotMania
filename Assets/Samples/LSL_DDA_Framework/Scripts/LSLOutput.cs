@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using LSL;
 using UnityEngine.UI;
+using TMPro;
 
 public class LSLOutput : MonoBehaviour
 {
@@ -19,9 +20,12 @@ public class LSLOutput : MonoBehaviour
     public Sprite off;
     public TextConsole Console;
 
-    public Text inputName;
-    public Text inputType;
-    public Text inputID;
+    [SerializeField]
+    private TMP_InputField inputName;
+    [SerializeField]
+    private TMP_InputField inputType;
+    [SerializeField]
+    private TMP_InputField inputID;
 
     public string StreamName = "Unity.ExampleStream";
     public string StreamType = "Unity.StreamType";
@@ -38,6 +42,7 @@ public class LSLOutput : MonoBehaviour
 
     void Start()
     {
+        ChangeStringBasedOnInput();
         if (Prefer.autoplay_on)
         {
             StartStream();
@@ -58,6 +63,7 @@ public class LSLOutput : MonoBehaviour
         // Update might be better for objects that are governed by code (stimulus, event).
     void FixedUpdate()
     {
+
         if (Start_Stop) {
             Vector3 pos = gameObject.transform.position;
             int i = 0, i2 = 0;
@@ -84,6 +90,10 @@ public class LSLOutput : MonoBehaviour
             {
                 outlet.push_sample(currentSample);
             }
+        }
+        else
+        {
+            ChangeStringBasedOnInput();
         }
     }
 
