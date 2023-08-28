@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class QuestionaireController : MonoBehaviour
 {
     // Reference to the image component
+    public GameObject Questionaire;
     public Image image;
     private Vector3 endPosition = new Vector3(6000, 0, 0);
 
@@ -20,7 +21,8 @@ public class QuestionaireController : MonoBehaviour
 
     private void Start()
     {
-        Streamer.StartStream();
+         Streamer.StartStream();
+         //Questionaire.SetActive(false);
     }
 
     private void FixedUpdate()
@@ -43,7 +45,9 @@ public class QuestionaireController : MonoBehaviour
         {
             // Start moving the image
             isMoving = true;
-            image.transform.position = new Vector3(Screen.width / 2f, Screen.height / 2f, 0);
+            //image.transform.position = new Vector3(0, 0, 0);
+            Questionaire.SetActive(true);
+            //image.transform.position = new Vector3(Screen.width / 2f, Screen.height / 2f, 0);
             Time.timeScale = 0;
 
         }
@@ -51,7 +55,8 @@ public class QuestionaireController : MonoBehaviour
         {
             isMoving = false;
             Time.timeScale = 1;
-            image.transform.position = endPosition;
+            Questionaire.SetActive(false);
+            //image.transform.position = endPosition;
         }
     }
 

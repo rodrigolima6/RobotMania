@@ -4,7 +4,7 @@ using UnityEngine;
 using Tobii.Gaming;
 
 [RequireComponent(typeof(GazeAware))]
-public class Ball2 : MonoBehaviour
+public class Ball2 : MonoBehaviour 
 {
     private GazeAware _gazeAwareComponent;
     private SpriteRenderer spriteRenderer;
