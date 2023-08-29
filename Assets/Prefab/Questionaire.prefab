@@ -287,6 +287,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fill: {fileID: 6960459804737538078}
   timer: 0
+  clicks: 0
 --- !u!65 &5170243833026283991
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -510,9 +511,10 @@ GameObject:
   - component: {fileID: 5611645398301910954}
   - component: {fileID: 4203147929339911360}
   - component: {fileID: 2214675532296944361}
+  - component: {fileID: 9077001396285044373}
   m_Layer: 0
   m_Name: QuestionaireManager
-  m_TagString: Untagged
+  m_TagString: BtnController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -566,6 +568,24 @@ MonoBehaviour:
   typeStream: 0
   Channels:
   - Concentration
+--- !u!114 &9077001396285044373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2069887520375071365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a803c30a2949333438ddf173f226c56a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  btns:
+  - {fileID: 6708325638716509420}
+  - {fileID: 7128301363356495296}
+  - {fileID: 8973758858724324433}
+  - {fileID: 8899439184314090789}
+  - {fileID: 4787469414503392963}
 --- !u!1 &2477828096866760031
 GameObject:
   m_ObjectHideFlags: 0
@@ -759,6 +779,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fill: {fileID: 2472157986430346852}
   timer: 0
+  clicks: 0
 --- !u!65 &6075244158356978234
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1020,6 +1041,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fill: {fileID: 4728532496301839219}
   timer: 0
+  clicks: 0
 --- !u!65 &132444236931600169
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1897,6 +1919,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fill: {fileID: 3898908633360178284}
   timer: 0
+  clicks: 0
 --- !u!65 &7024217955511733473
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2160,6 +2183,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fill: {fileID: 5852195201083127886}
   timer: 0
+  clicks: 0
 --- !u!65 &4208657947233905231
 BoxCollider:
   m_ObjectHideFlags: 0

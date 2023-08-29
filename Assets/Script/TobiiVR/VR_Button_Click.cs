@@ -8,14 +8,16 @@ namespace Tobii.XR.Examples.DevTools{
     public class VR_Button_Click : MonoBehaviour , IGazeFocusable
     {
         private Button btn;
+        private VR_button_Controller controller;
         public Image fill;
         public float timer;
-        private float clicks = 0;
+        public float clicks = 0;
 
         // Start is called before the first frame update
         void Start()
         {
             btn = GetComponent<Button>();
+            controller=GameObject.FindWithTag("BtnController").GetComponent<VR_button_Controller>();
         }
         
         public void GazeFocusChanged(bool hasFocus)
@@ -23,36 +25,22 @@ namespace Tobii.XR.Examples.DevTools{
             // If this object received focus, start the timer
             if (hasFocus)
             {
-               
-                
                 clicks += 0.25f;
                 fill.fillAmount = clicks;
-                // If the timer is greater than or equal to 2 seconds, trigger the button click
 
+                controller.Btn_Was_Click(this);
+                
                 if (clicks >= 1f)
                 {
                     Debug.Log("Click");
                     btn.onClick.Invoke();
+                    controller.ClearClicks();
                 }
             }
-            else
-            {
-               
-                timer = 0f; 
-            }
+           
+            
         }
 
-        private void Update()
-        {
-            timer = +Time.deltaTime;
-
-            if (timer >= 2f)
-            {
-                timer = 0;
-               clicks = 0;
-            }
-
-        }
 
     }
 }
