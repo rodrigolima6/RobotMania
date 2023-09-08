@@ -16,7 +16,7 @@ public class QuestionaireController : MonoBehaviour
     //LSL Streams 
     [SerializeField] private LSLStreamer Streamer;
 
-    private int FocusLevel = 0;
+    private int FocusLevel = 3;
 
     private void Start()
     {
@@ -32,7 +32,7 @@ public class QuestionaireController : MonoBehaviour
         }
         float[] dataSent = new float[1];
         dataSent[0] = FocusLevel;
-        //Streamer.StreamData(dataSent[0]);
+        Streamer.StreamData(dataSent);
 
 
     }

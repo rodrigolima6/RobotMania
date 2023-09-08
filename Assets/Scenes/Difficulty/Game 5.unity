@@ -816,7 +816,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnRate: 1
-  ballPrefab: {fileID: 1345251357707774161, guid: ba47f0cf5842d844a8195dcfef2f2de0, type: 3}
+  ballPrefab: {fileID: 1345251357707774161, guid: ae054005c8bd7ce4488e05d8170d94b1, type: 3}
   delayAfterSpawn: 1
   delay: 1000
 --- !u!212 &617847385
@@ -1015,7 +1015,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnRate: 1
-  ballPrefab: {fileID: 1345251357707774161, guid: ba47f0cf5842d844a8195dcfef2f2de0, type: 3}
+  ballPrefab: {fileID: 1345251357707774161, guid: ae054005c8bd7ce4488e05d8170d94b1, type: 3}
   delayAfterSpawn: 1
   delay: 1000
 --- !u!212 &819915498
@@ -2461,7 +2461,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1964161373607232950, guid: 9abdba54d503fdb4fb11cba58a271575, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8640022663849269759, guid: 9abdba54d503fdb4fb11cba58a271575, type: 3}
       propertyPath: m_Pivot.x

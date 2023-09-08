@@ -434,7 +434,7 @@ MonoBehaviour:
   StreamName: QuestionsStream
   StreamType: UnityStream
   StreamID: 1
-  SampleRate: 50
+  SampleRate: 30
   typeStream: 0
   Channels:
   - Concentration
