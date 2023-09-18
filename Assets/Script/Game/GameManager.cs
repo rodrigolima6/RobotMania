@@ -18,10 +18,13 @@ public class GameManager : MonoBehaviour
     private float score = 0;
     private float time = 0.0f;
 
+    [SerializeField] private bool[] ballsucess = new bool[10];
+
+    public float ErrorRate = 0f;
+
     public float ScorePsecond = 0f;
     public float LifePsecond = 0f;
     public float ReactTime = 0f;
-
     //Outputs
     public float ballSpeed = 10.0f;
     public float ballSpawnRate = 4.0f; 
@@ -60,6 +63,7 @@ public class GameManager : MonoBehaviour
         float cameraWidth = cameraHeight * screenAspect;
 
         ScreenBounds = new Bounds(Camera.main.transform.position, new Vector3(cameraWidth * 2, cameraHeight * 2, 0f));
+        
     }
 
     private void Update()
@@ -115,11 +119,10 @@ public class GameManager : MonoBehaviour
         
     }
 
-
     public Bounds getScreenBounds()
-        {
-            return ScreenBounds;
-        }
+    {
+        return ScreenBounds;
+    }
 
     // Rest of the GameManager code...
     public void DeductLife(int amount)
@@ -127,8 +130,7 @@ public class GameManager : MonoBehaviour
         playerLife -= amount;
         // Add your desired logic when the player loses a life (e.g., game over screen, restart level, etc.)
         //Debug.Log("Player life: " + playerLife);
-
-        
+        Remove_Add(false);
 
         if (playerLife <= 0)
         {
@@ -147,12 +149,12 @@ public class GameManager : MonoBehaviour
         
         // Add your desired logic when the player loses a life (e.g., game over screen, restart level, etc.)
         Debug.Log("Player life: " + playerLife);
-
         ShowLife(playerLife);
     }
 
     public void IncreaseScore(int points)
     {
+        Remove_Add(true);
         score += points;
         ShowScore(score);
     }
@@ -160,6 +162,30 @@ public class GameManager : MonoBehaviour
     private void ShowScore(float points)
     {
         textMeshPro.text = ""+points;
+    }
+
+    private void Remove_Add(bool value)
+    {
+        int i = 0;
+        float percentage = 0;
+        bool[] temp_array = new bool[10];
+
+        foreach (bool success in ballsucess)
+        {
+            if (i != ballsucess.Length-1) {
+                temp_array[i+1] = success;
+            }
+            if (success)
+            {
+                percentage++;
+            }
+            i++;
+        }
+
+        temp_array[0] = value;
+        ballsucess = temp_array;
+        ErrorRate = (10-percentage)/10;
+        Debug.Log("->" + percentage);
     }
 
     public void ShowLife(float life)

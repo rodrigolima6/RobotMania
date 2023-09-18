@@ -175,6 +175,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 6d32a23dfeeb3f84baa0fff52ccd7a07, type: 3}
   - {fileID: 21300000, guid: dcb4252b95bc1bf4bb38740446e2b8d5, type: 3}
   Hearts: {fileID: 656845911}
+  ballsucess: 01010101010101010101
+  ErrorRate: 0
   ScorePsecond: 0
   LifePsecond: 0
   ReactTime: 0

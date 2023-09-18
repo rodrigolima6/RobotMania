@@ -79,12 +79,12 @@ public class LSLStreamer : MonoBehaviour
 
         // You can now use the `streamsample` variable outside the switch statement
             
-            Debug.Log("Data Sent->" + sample);
+            //Debug.Log("Data Sent->" + sample);
         }
         
         else
         {
-            Debug.Log("Stream hasn't been started");
+            //Debug.Log("Stream hasn't been started");
         }
     }
     
