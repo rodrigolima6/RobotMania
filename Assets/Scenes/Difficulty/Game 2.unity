@@ -221,7 +221,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d37b9033bb311d8478ef912700c403d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  heartPrefab: {fileID: 7278527119741246299, guid: d80a829f472dc2d41bfbc62b312443f0, type: 3}
+  heartPrefab: {fileID: 7278527119741246299, guid: 6bbd73ead493bc0409c13231a1e26afb, type: 3}
 --- !u!114 &42767489
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -841,7 +841,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnRate: 1
-  ballPrefab: {fileID: 1345251357707774161, guid: ba47f0cf5842d844a8195dcfef2f2de0, type: 3}
+  ballPrefab: {fileID: 1345251357707774161, guid: ae054005c8bd7ce4488e05d8170d94b1, type: 3}
   delayAfterSpawn: 1
   delay: 1000
 --- !u!212 &617847385
@@ -1040,7 +1040,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnRate: 1
-  ballPrefab: {fileID: 1345251357707774161, guid: ba47f0cf5842d844a8195dcfef2f2de0, type: 3}
+  ballPrefab: {fileID: 1345251357707774161, guid: ae054005c8bd7ce4488e05d8170d94b1, type: 3}
   delayAfterSpawn: 1
   delay: 1000
 --- !u!212 &819915498

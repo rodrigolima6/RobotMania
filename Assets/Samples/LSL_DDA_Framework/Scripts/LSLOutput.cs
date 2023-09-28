@@ -61,7 +61,8 @@ public class LSLOutput : MonoBehaviour
 
         // FixedUpdate is a good hook for objects that are governed mostly by physics (gravity, momentum).
         // Update might be better for objects that are governed by code (stimulus, event).
-    void FixedUpdate()
+    //void FixedUpdate()
+    public void SendData()
     {
 
         if (Start_Stop) {

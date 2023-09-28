@@ -45,6 +45,13 @@ public class Ball : MonoBehaviour
         Destroy(gameObject);
     }
 
+    public void onMouseOnTop()
+    {
+        GameManager.Instance.IncreaseScore(100);
+        GameManager.Set_Reflexes(elapsedTime);
+        Destroy(gameObject);
+    }
+
     private void FixedUpdate()
     {
         // Clamp the ball's position to the screen boundaries

@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour
     private float time = 0.0f;
 
     [SerializeField] private bool[] ballsucess = new bool[10];
+    [SerializeField] private LSLOutput Output;
 
     public float ErrorRate = 0f;
 
@@ -137,6 +138,7 @@ public class GameManager : MonoBehaviour
             playerLife = 1;
             //UniversalFunctions.ChangeScene("Menu 1"); 
         }
+        Output.SendData();
         ShowLife(playerLife);
     }
 
@@ -150,6 +152,7 @@ public class GameManager : MonoBehaviour
         // Add your desired logic when the player loses a life (e.g., game over screen, restart level, etc.)
         Debug.Log("Player life: " + playerLife);
         ShowLife(playerLife);
+      
     }
 
     public void IncreaseScore(int points)
@@ -157,6 +160,7 @@ public class GameManager : MonoBehaviour
         Remove_Add(true);
         score += points;
         ShowScore(score);
+        Output.SendData();
     }
 
     private void ShowScore(float points)
