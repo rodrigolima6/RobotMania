@@ -31,14 +31,10 @@ public class LSLOutput : MonoBehaviour
     public string StreamType = "Unity.StreamType";
     public string StreamId = "MyStreamID-Unity1234";
 
-    [SerializeField] public const float DesiredFrequency = 100f;
-    private const float FixedDeltaTime = 1f / DesiredFrequency;
+    [SerializeField] public const float DesiredFrequency = 1f;
+   // private const float FixedDeltaTime = 1f / DesiredFrequency;
 
     // Start is called before the first frame update
-    void Awake()
-    {
-        Time.fixedDeltaTime = FixedDeltaTime;
-    }
 
     void Start()
     {

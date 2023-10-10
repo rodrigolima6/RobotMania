@@ -25,7 +25,7 @@ public class QuestionaireController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (TimeChecker.elapsedTime - questionTimers >= 60)
+        if (TimeChecker.elapsedTime - questionTimers >= 30)
         {
             questionTimers = TimeChecker.elapsedTime;
             MoveImageToTargetPosition();
