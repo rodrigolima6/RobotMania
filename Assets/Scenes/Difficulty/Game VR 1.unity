@@ -169,7 +169,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textMeshPro: {fileID: 883305561}
   Timer: {fileID: 2000039864}
-  HeartRate: {fileID: 1781526448}
   Hearts_Sprite:
   - {fileID: 21300000, guid: 056e25420c949614282048cd70c300c2, type: 3}
   - {fileID: 21300000, guid: 71d6238f28e64884ca4638d01487eaca, type: 3}
@@ -177,11 +176,11 @@ MonoBehaviour:
   - {fileID: 21300000, guid: dcb4252b95bc1bf4bb38740446e2b8d5, type: 3}
   Hearts: {fileID: 656845911}
   ballsucess: 00000000000000000000
+  Output: {fileID: 1428173531}
   ErrorRate: 0
   ScorePsecond: 0
   LifePsecond: 0
   ReactTime: 0
-  HR: 0
   ballSpeed: 30
   ballSpawnRate: 5
   lifeSpawnRate: 5
@@ -1819,6 +1818,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1428173531 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1546361384838507554, guid: cc85b3531b377d14a9c8f6087bf07cbb, type: 3}
+  m_PrefabInstance: {fileID: 1780336124}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a5880e599650434e88ba00f47022771, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1436132500 stripped
