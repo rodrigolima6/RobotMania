@@ -13,8 +13,8 @@ public class LSLOutput : MonoBehaviour
 {
     private StreamOutlet outlet;
     private float[] currentSample;
-    private bool Start_Stop=false;
-   
+    private bool Start_Stop = false;
+
     public Image Signal;
     public Sprite on;
     public Sprite off;
@@ -31,14 +31,10 @@ public class LSLOutput : MonoBehaviour
     public string StreamType = "Unity.StreamType";
     public string StreamId = "MyStreamID-Unity1234";
 
-    [SerializeField] public const float DesiredFrequency = 100f;
-    private const float FixedDeltaTime = 1f / DesiredFrequency;
+    [SerializeField] public const float DesiredFrequency = 1f;
+    // private const float FixedDeltaTime = 1f / DesiredFrequency;
 
     // Start is called before the first frame update
-    void Awake()
-    {
-        Time.fixedDeltaTime = FixedDeltaTime;
-    }
 
     void Start()
     {
@@ -59,18 +55,21 @@ public class LSLOutput : MonoBehaviour
         StreamId = inputID.text;
     }
 
-        // FixedUpdate is a good hook for objects that are governed mostly by physics (gravity, momentum).
-        // Update might be better for objects that are governed by code (stimulus, event).
-    void FixedUpdate()
+    // FixedUpdate is a good hook for objects that are governed mostly by physics (gravity, momentum).
+    // Update might be better for objects that are governed by code (stimulus, event).
+    //void FixedUpdate()
+    public void SendData()
     {
 
-        if (Start_Stop) {
+        if (Start_Stop)
+        {
             Vector3 pos = gameObject.transform.position;
             int i = 0, i2 = 0;
-            
+
             foreach (float Variab in GetPublicVariables.FieldsValues)
             {
-                if (GetPublicVariables.Input_On.Count != 0) {
+                if (GetPublicVariables.Input_On.Count != 0)
+                {
                     if (GetPublicVariables.Input_On[i])
                     {
                         currentSample[i2] = Variab;
@@ -79,7 +78,7 @@ public class LSLOutput : MonoBehaviour
                 }
                 else
                 {
-                    
+
                     Start_Stop = false;
                     break;
                 }
@@ -114,17 +113,19 @@ public class LSLOutput : MonoBehaviour
     private void InitStream()
     {
         Console.WriteInConsole("Intiliazing the stream...");
-        if (GetPublicVariables.Number_Input!=0) {
+        if (GetPublicVariables.Number_Input != 0)
+        {
             Start_Stop = true;
             Signal.sprite = on;
             StreamInfo streamInfo = new StreamInfo(StreamName, StreamType, GetPublicVariables.Number_Input, DesiredFrequency, LSL.channel_format_t.cf_float32);
             XMLElement chans = streamInfo.desc().append_child("channels");
-            foreach (string Variab in GetPublicVariables.FieldsName){
+            foreach (string Variab in GetPublicVariables.FieldsName)
+            {
                 chans.append_child("channel").append_child_value("label", Variab);
             }
             Console.WriteInConsole("--------------------------------------------------------");
-            Console.WriteInConsole("Stream Name: "+StreamName);
-            Console.WriteInConsole("Stream Type: " + StreamType );
+            Console.WriteInConsole("Stream Name: " + StreamName);
+            Console.WriteInConsole("Stream Type: " + StreamType);
             Console.WriteInConsole("Channel Number: " + GetPublicVariables.Number_Input);
             Console.WriteInConsole("Data Rate: " + Time.fixedDeltaTime * 1000);
             Console.WriteInConsole("--------------------------------------------------------");

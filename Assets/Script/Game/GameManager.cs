@@ -18,13 +18,17 @@ public class GameManager : MonoBehaviour
     private float score = 0;
     private float time = 0.0f;
 
+    [SerializeField] private bool[] ballsucess = new bool[10];
+    [SerializeField] private LSLOutput Output;
+
+    public float ErrorRate = 0f;
+
     public float ScorePsecond = 0f;
     public float LifePsecond = 0f;
     public float ReactTime = 0f;
-
     //Outputs
     public float ballSpeed = 10.0f;
-    public float ballSpawnRate = 4.0f; 
+    public float ballSpawnRate = 4.0f;
     public float lifeSpawnRate = 8.0f;
     public float circleFade = 0.9f;
 
@@ -60,13 +64,14 @@ public class GameManager : MonoBehaviour
         float cameraWidth = cameraHeight * screenAspect;
 
         ScreenBounds = new Bounds(Camera.main.transform.position, new Vector3(cameraWidth * 2, cameraHeight * 2, 0f));
+
     }
 
     private void Update()
     {
         if (TimeChecker.HasFiveMinutesPassed())
         {
-            
+
             UniversalFunctions.ChangeScene("Menu 1");
         }
     }
@@ -79,17 +84,18 @@ public class GameManager : MonoBehaviour
 
         ImageScaler.scaleMultiplier = circleFade;
 
-        time = 300-TimeChecker.elapsedTime;
+        time = 300 - TimeChecker.elapsedTime;
 
-        if (TimeChecker.elapsedTime-one_second >= 1){
+        if (TimeChecker.elapsedTime - one_second >= 1)
+        {
 
-            
+
             SscorePsecond = ((score - last_score) + SscorePsecond) / 2;
             SLifePsecond = (playerLife + SLifePsecond) / 2;
             last_score = score;
             one_second = TimeChecker.elapsedTime;
         }
-        Timer.text = ""+(int)time;
+        Timer.text = "" + (int)time;
 
         ReactTime = SReactTime;
         ScorePsecond = SscorePsecond;
@@ -106,20 +112,19 @@ public class GameManager : MonoBehaviour
 
     public static void Set_Reflexes(float reflex)
     {
-        if (SReactTime==0)
+        if (SReactTime == 0)
         {
             SReactTime = reflex;
             return;
         }
         SReactTime = (reflex + SReactTime) / 2;
-        
+
     }
 
-
     public Bounds getScreenBounds()
-        {
-            return ScreenBounds;
-        }
+    {
+        return ScreenBounds;
+    }
 
     // Rest of the GameManager code...
     public void DeductLife(int amount)
@@ -127,39 +132,66 @@ public class GameManager : MonoBehaviour
         playerLife -= amount;
         // Add your desired logic when the player loses a life (e.g., game over screen, restart level, etc.)
         //Debug.Log("Player life: " + playerLife);
-
-        
+        Remove_Add(false);
 
         if (playerLife <= 0)
         {
             playerLife = 1;
             //UniversalFunctions.ChangeScene("Menu 1"); 
         }
+        Output.SendData();
         ShowLife(playerLife);
     }
 
     public void IncreaseLife(int amount)
     {
-        if (playerLife!=3)
+        if (playerLife != 3)
         {
             playerLife += amount;
         }
-        
+
         // Add your desired logic when the player loses a life (e.g., game over screen, restart level, etc.)
         Debug.Log("Player life: " + playerLife);
-
         ShowLife(playerLife);
+
     }
 
     public void IncreaseScore(int points)
     {
+        Remove_Add(true);
         score += points;
         ShowScore(score);
+        Output.SendData();
     }
 
     private void ShowScore(float points)
     {
-        textMeshPro.text = ""+points;
+        textMeshPro.text = "" + points;
+    }
+
+    private void Remove_Add(bool value)
+    {
+        int i = 0;
+        float percentage = 0;
+        bool[] temp_array = new bool[10];
+
+        foreach (bool success in ballsucess)
+        {
+            if (i != ballsucess.Length - 1)
+            {
+                temp_array[i + 1] = success;
+            }
+            if (success)
+            {
+                percentage++;
+            }
+            i++;
+        }
+
+        temp_array[0] = value;
+        ballsucess = temp_array;
+        ErrorRate = (10 - percentage) / 10;
+        Debug.Log("->" + percentage);
     }
 
     public void ShowLife(float life)
