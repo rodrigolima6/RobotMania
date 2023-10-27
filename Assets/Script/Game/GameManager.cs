@@ -11,6 +11,10 @@ public class GameManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI Timer;
     [SerializeField] private List<Sprite> Hearts_Sprite;
     [SerializeField] private Image Hearts;
+    [SerializeField] private List<Sprite> Arrows_Sprite;
+    [SerializeField] private Image Arrows;
+    [SerializeField] private TextMeshProUGUI HeartRate;
+    
     private Bounds ScreenBounds;
 
     //Inputs
@@ -30,7 +34,9 @@ public class GameManager : MonoBehaviour
     public float ballSpeed = 10.0f;
     public float ballSpawnRate = 4.0f;
     public float lifeSpawnRate = 8.0f;
-    public float circleFade = 0.9f;
+    public float circleFade = 0.9f; 
+    public float HR = 0.0f;
+
 
     //Outputs global variables
     public static float SscorePsecond = 0f;
@@ -72,7 +78,7 @@ public class GameManager : MonoBehaviour
         if (TimeChecker.HasFiveMinutesPassed())
         {
 
-            UniversalFunctions.ChangeScene("Menu 1");
+            UniversalFunctions.ChangeScene("MenuVR2");
         }
     }
 
@@ -88,15 +94,28 @@ public class GameManager : MonoBehaviour
 
         if (TimeChecker.elapsedTime - one_second >= 1)
         {
-
-
             SscorePsecond = ((score - last_score) + SscorePsecond) / 2;
             SLifePsecond = (playerLife + SLifePsecond) / 2;
             last_score = score;
             one_second = TimeChecker.elapsedTime;
         }
-        Timer.text = "" + (int)time;
+        
+        if (circleFade>0)
+        {
+            Arrows.sprite = Arrows_Sprite[1];
+        }
+        else if (circleFade < 0)
+        {
+            Arrows.sprite = Arrows_Sprite[2];
+        }
+        else
+        {
+           // Debug.Log("bom");
+            Arrows.sprite = Arrows_Sprite[0];
+        }
 
+        Timer.text = "" + (int)time;
+        HeartRate.text = "" + HR.ToString("F1");
         ReactTime = SReactTime;
         ScorePsecond = SscorePsecond;
         LifePsecond = SLifePsecond;
@@ -104,10 +123,6 @@ public class GameManager : MonoBehaviour
         SplayerLife = playerLife;
         Sscore = score;
         Stime = time;
-
-        //Debug.Log("ballSpeed = " + ballSpeed + "=" + SballSpeed);
-        //Debug.Log("ballSpawnRate = " + ballSpawnRate + "=" + SballSpawnRate);
-        //Debug.Log("lifeSpawnRate = " + lifeSpawnRate + "=" + SlifeSpawnRate);
     }
 
     public static void Set_Reflexes(float reflex)
@@ -126,7 +141,7 @@ public class GameManager : MonoBehaviour
         return ScreenBounds;
     }
 
-    // Rest of the GameManager code...
+    
     public void DeductLife(int amount)
     {
         playerLife -= amount;
@@ -191,7 +206,7 @@ public class GameManager : MonoBehaviour
         temp_array[0] = value;
         ballsucess = temp_array;
         ErrorRate = (10 - percentage) / 10;
-        Debug.Log("->" + percentage);
+        
     }
 
     public void ShowLife(float life)

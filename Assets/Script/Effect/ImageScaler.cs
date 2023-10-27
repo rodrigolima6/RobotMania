@@ -46,11 +46,14 @@ public class ImageScaler : MonoBehaviour
         if (Mathf.Abs(scale_Now.x) > 0.1f)
         {
             // Apply the scale to the image transform
+            // Debug.Log("Scale"+ scale_Now);
             image.transform.localScale += scale_Now * speed * Time.deltaTime;
         }
         else
         {
             image.transform.localScale = newScale;
         }
+
+
     }
 }

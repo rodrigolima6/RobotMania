@@ -5,36 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 0
-    path: Assets/Scenes/Menu.unity
-    guid: 31157f44924818d47baba30123a5ac3c
-  - enabled: 0
-    path: Assets/Scenes/Game.unity
-    guid: 9377dbba57387ee49b8b5daa1ae07cb2
-  - enabled: 0
-    path: Assets/Samples/LSL_DDA_Framework/Scene/TestScene.unity
-    guid: 507edb43f88352d409829fd70de77eb0
   - enabled: 1
-    path: Assets/Scenes/Menu 1.unity
-    guid: 16189414dee909042affefb4ae6811b8
+    path: Assets/Scenes/Difficulty/GameVR1.unity
+    guid: c636153f3a947304491a55a9d0430b61
   - enabled: 1
-    path: Assets/Scenes/Difficulty/Game 1.unity
-    guid: 4bfcb2b8e33763546a3656bf1ce72680
-  - enabled: 1
-    path: Assets/Scenes/Difficulty/Game 2.unity
-    guid: 5924dfd85c9fdcb4f803199b6777991f
-  - enabled: 1
-    path: Assets/Scenes/Difficulty/Game 3.unity
-    guid: 1cc4d94dae4a514419bbdeb1481a7292
-  - enabled: 1
-    path: Assets/Scenes/Difficulty/Game 4.unity
-    guid: 47392a0c2635fc44a93f2760666491d9
-  - enabled: 1
-    path: Assets/Scenes/Difficulty/Game 5.unity
-    guid: 928ee89480451ba4db77b939add87e37
+    path: Assets/Scenes/Difficulty/MenuVR2.unity
+    guid: 32bb22afcc1572945888e464a854cb43
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5f4722e9dec0cff498f3aa6535eca2be, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 6be5c4c0e389fe0448018690f237836f, type: 2}

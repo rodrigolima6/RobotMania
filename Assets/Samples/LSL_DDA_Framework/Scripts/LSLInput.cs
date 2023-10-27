@@ -30,7 +30,7 @@ public class LSLInput : MonoBehaviour
                 channelgroup = streamInlet.info().desc().child("channels").child("channel");
                 for (int i = 0; i < channelCount; i++)
                 {
-                    //Debug.Log("channel name:"+ channelgroup.child_value("label") + " |loop i="+i);
+                    Debug.Log("channel name:"+ channelgroup.child_value("label") + " |loop i="+i);
                     channels[i]=channelgroup.child_value("label");
                     channelgroup=channelgroup.next_sibling();
                 }
@@ -58,6 +58,7 @@ public class LSLInput : MonoBehaviour
         int i = 0;
         foreach (float sample in newSample){
             //Debug.Log("Updating var loop i=" + i);
+            //Debug.Log(channels[i]+"Updating sample=" + sample);
             GetPublicVariables.SetValueofOutput(channels[i],sample);
             i++;
         }

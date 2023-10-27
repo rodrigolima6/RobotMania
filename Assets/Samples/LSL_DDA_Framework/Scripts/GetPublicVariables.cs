@@ -128,10 +128,10 @@ public class GetPublicVariables : MonoBehaviour
             if (Output_On[i])
             {
 
-                //Debug.Log("Flag3- Has the same name" + field.Name + "=" + keys);
+                //Debug.Log("Flag3- Has the same name :" + field.Name + "=" + keys + " is true ?->"+(keys == field.Name));
                 if (keys==field.Name)
                 {
-                   // Debug.Log("Flag4- Has the same name" + field.Name + "="+ keys);
+                  // Debug.Log("Flag4- Has the same name" + field.Name + "="+ keys);
                     field.SetValue(script2, value);
                 }
             }
