@@ -11,7 +11,7 @@ using TMPro;
 
 public class LSLOutput : MonoBehaviour
 {
-    private StreamOutlet outlet;
+    private StreamOutlet outlet, MarkerOutlet;
     private float[] currentSample;
     private bool Start_Stop=false;
    
@@ -31,7 +31,7 @@ public class LSLOutput : MonoBehaviour
     public string StreamType = "Unity.StreamType";
     public string StreamId = "MyStreamID-Unity1234";
 
-    [SerializeField] public const float DesiredFrequency = 1f;
+    [SerializeField] public const float DesiredFrequency = 100f;
    // private const float FixedDeltaTime = 1f / DesiredFrequency;
 
     // Start is called before the first frame update
@@ -94,18 +94,36 @@ public class LSLOutput : MonoBehaviour
         }
     }
 
+    public void SendMarkers(string marker)
+    {
+        // Push the marker to the LSL outlet
+        MarkerOutlet.push_sample(new string[] { marker });
+    }
+
+
     public void StartStream()
     {
         InitStream();
+        InitMarker();
+        SendMarkers("Begin");
+    }
+
+    public void InitMarker()
+    {
+        StreamInfo streamInfo = new StreamInfo("MarkerStream", "Markers", 1, 0, channel_format_t.cf_string, "UniqueMarkerID");
+        MarkerOutlet  = new StreamOutlet(streamInfo);
     }
 
     public void StopStream()
     {
+        SendMarkers("End");
         Start_Stop = false;
         Console.WriteInConsole("Stopping the stream...");
         Signal.sprite = off;
+        MarkerOutlet.Close();
         outlet.Close();
         Console.WriteInConsole("Stream Stopped...");
+       
     }
 
     private void InitStream()

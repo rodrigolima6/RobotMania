@@ -6,23 +6,43 @@ using System;
 
 public class DataLogger : MonoBehaviour
 {
-    public String Name = "default";
+    public string Name = "default";
+    private DateTime currentTime;
     private List<string> dataRows = new List<string>();
     private string filePath;
     private float timer = 0f;
     private float interval = 20f; // 20 seconds interval
 
+    private string[] headers = {
+        "Timestamp",
+        "Score",
+        "Time",
+        "Life",
+        "Score/10s",
+        "Life/10s",
+        "Reflexes",
+        "Ball Speed",
+        "Ball Spawn Rate",
+        "Life Spawn Rate"
+    };
+
     private void Start()
     {
+        currentTime = System.DateTime.Now;
+        string dateString = currentTime.Hour + "_" + currentTime.Minute + "_" + currentTime.Second + "_" + currentTime.Day + "_" + currentTime.Month;
         // Set the file path for the CSV file
-        filePath = Application.dataPath + "/"+Name+".csv";
+        filePath = Application.dataPath + "/" + Name + "_" + dateString + ".csv";
 
         // Initialize the CSV file with headers
-        dataRows.Add("Timestamp,Score,Time,Life,Score/10s,Life/10s,Reflexes,Ball Speed, Ball Spawn Rate, Life Spawn Rate");
+        foreach (string header in headers)
+        {
+            dataRows.Add(header);
+        }
 
         // Start the data logging coroutine
         StartCoroutine(LogData());
     }
+
 
     private IEnumerator LogData()
     {

@@ -71,7 +71,7 @@ public class GameManager : MonoBehaviour
     {
         if (TimeChecker.HasFiveMinutesPassed())
         {
-            
+            Output.StopStream();
             UniversalFunctions.ChangeScene("Menu 1");
         }
     }
