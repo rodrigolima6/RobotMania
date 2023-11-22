@@ -8,62 +8,70 @@ public class DataLogger : MonoBehaviour
 {
     public string Name = "default";
     private DateTime currentTime;
-    private List<string> dataRows = new List<string>();
+    private List<DataEntry> dataRows = new List<DataEntry>();
     private string filePath;
     private float timer = 0f;
-    private float interval = 20f; // 20 seconds interval
+    private float interval = 290f; // 20 seconds interval
 
     private string[] headers = {
-        "Timestamp",
         "Score",
         "Time",
-        "Life",
         "Score/10s",
-        "Life/10s",
         "Reflexes",
-        "Ball Speed",
-        "Ball Spawn Rate",
-        "Life Spawn Rate"
+        "Ball Speed"
     };
+
+    [Serializable]
+    public class DataEntry
+    {
+        public string Timestamp;
+        public float Score;
+        public float Time;
+        public float ScorePerSecond;
+        public float Reflexes;
+        public float BallSpeed;
+    }
 
     private void Start()
     {
         currentTime = System.DateTime.Now;
         string dateString = currentTime.Hour + "_" + currentTime.Minute + "_" + currentTime.Second + "_" + currentTime.Day + "_" + currentTime.Month;
-        // Set the file path for the CSV file
-        filePath = Application.dataPath + "/" + Name + "_" + dateString + ".csv";
-
-        // Initialize the CSV file with headers
-        foreach (string header in headers)
-        {
-            dataRows.Add(header);
-        }
+        // Set the file path for the JSON file
+        filePath = Application.dataPath + "/data/" + Name + "_" + dateString + ".json";
 
         // Start the data logging coroutine
         StartCoroutine(LogData());
     }
 
-
     private IEnumerator LogData()
     {
         while (true)
         {
-
-
             // Simulate receiving data (replace this with your actual data source)
-             string newData = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") + "," + GameManager.Sscore + "," + GameManager.Stime + "," + GameManager.SplayerLife + ","+ GameManager.SscorePsecond + "," + GameManager.SLifePsecond + "," + GameManager.SReactTime + "," + GameManager.SballSpeed + "," + GameManager.SballSpawnRate + "," + GameManager.SlifeSpawnRate;
-            //Debug.Log(newData);
+            DataEntry newData = new DataEntry
+            {
+                Timestamp = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"),
+                Score = GameManager.Sscore,
+                Time = GameManager.Stime,
+                ScorePerSecond = GameManager.SscorePsecond,
+                Reflexes = GameManager.SReactTime,
+                BallSpeed = GameManager.SballSpeed
+            };
+
             // Add the new data to the list
             dataRows.Add(newData);
 
-            // Check if it's time to write to the CSV file
+            // Check if it's time to write to the JSON file
             if (timer >= interval)
             {
-                // Write data to the CSV file
-                File.AppendAllLines(filePath, dataRows);
+                // Convert the list to JSON
+                string jsonData = JsonUtility.ToJson(new DataWrapper { DataEntries = dataRows }, true);
+
+                // Write data to the JSON file
+                File.WriteAllText(filePath, jsonData);
 
                 // Clear the data list for the next interval
-                dataRows.Clear();
+               // dataRows.Clear();
 
                 // Reset the timer
                 timer = 0f;
@@ -75,5 +83,11 @@ public class DataLogger : MonoBehaviour
             // Increment the timer
             timer += 1f;
         }
+    }
+
+    [Serializable]
+    private class DataWrapper
+    {
+        public List<DataEntry> DataEntries;
     }
 }
