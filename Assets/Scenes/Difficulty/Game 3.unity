@@ -615,6 +615,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Effects
       objectReference: {fileID: 0}
+    - target: {fileID: 70809560075777109, guid: 049df63d23d327f4da23c6b1c44b48c3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 049df63d23d327f4da23c6b1c44b48c3, type: 3}

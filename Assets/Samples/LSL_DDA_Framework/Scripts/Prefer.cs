@@ -48,6 +48,7 @@ public class Prefer : MonoBehaviour
 
         foreach (string key in input_keys)
         {
+            //Debug.Log(key+"->"+ (inputs[i].isOn ? 1 : 0));
             PlayerPrefs.SetInt(key, inputs[i].isOn ? 1 : 0);
             i++;
         }

@@ -94,7 +94,7 @@ public class GameManager : MonoBehaviour
             last_score = score;
             one_second = TimeChecker.elapsedTime;
         }
-        Timer.text = ""+(int)time;
+        //Timer.text = ""+(int)time;
 
         ReactTime = SReactTime;
         ScorePsecond = SscorePsecond;
@@ -138,8 +138,8 @@ public class GameManager : MonoBehaviour
             playerLife = 1;
             //UniversalFunctions.ChangeScene("Menu 1"); 
         }
-        Output.SendData();
-        ShowLife(playerLife);
+        //Output.SendData();
+        //ShowLife(playerLife);
     }
 
     public void IncreaseLife(int amount)
@@ -160,7 +160,7 @@ public class GameManager : MonoBehaviour
         Remove_Add(true);
         score += points;
         ShowScore(score);
-        Output.SendData();
+        //Output.SendData();
     }
 
     private void ShowScore(float points)

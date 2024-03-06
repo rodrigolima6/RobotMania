@@ -18,7 +18,7 @@ public class TestManager : MonoBehaviour
        
         if (DelayTest2 != 0)
         {
-            Debug.Log("Delay is "+(DelayTest2-Time.time));
+            Debug.Log("Delay is "+(DelayTest2));
             DelayTest = 0;
         }
     }

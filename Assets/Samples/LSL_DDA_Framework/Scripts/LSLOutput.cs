@@ -11,10 +11,10 @@ using TMPro;
 
 public class LSLOutput : MonoBehaviour
 {
-    private StreamOutlet outlet, MarkerOutlet;
+    private StreamOutlet outlet;
     private float[] currentSample;
-    private bool Start_Stop=false;
-   
+    private bool Start_Stop = false;
+
     public Image Signal;
     public Sprite on;
     public Sprite off;
@@ -32,9 +32,13 @@ public class LSLOutput : MonoBehaviour
     public string StreamId = "MyStreamID-Unity1234";
 
     [SerializeField] public const float DesiredFrequency = 100f;
-   // private const float FixedDeltaTime = 1f / DesiredFrequency;
+    private const float FixedDeltaTime = 1f / DesiredFrequency;
 
     // Start is called before the first frame update
+    void Awake()
+    {
+        Time.fixedDeltaTime = FixedDeltaTime;
+    }
 
     void Start()
     {
@@ -55,19 +59,20 @@ public class LSLOutput : MonoBehaviour
         StreamId = inputID.text;
     }
 
-        // FixedUpdate is a good hook for objects that are governed mostly by physics (gravity, momentum).
-        // Update might be better for objects that are governed by code (stimulus, event).
-    //void FixedUpdate()
-    public void SendData()
+    // FixedUpdate is a good hook for objects that are governed mostly by physics (gravity, momentum).
+    // Update might be better for objects that are governed by code (stimulus, event).
+    void FixedUpdate()
     {
 
-        if (Start_Stop) {
+        if (Start_Stop)
+        {
             Vector3 pos = gameObject.transform.position;
             int i = 0, i2 = 0;
-            
+
             foreach (float Variab in GetPublicVariables.FieldsValues)
             {
-                if (GetPublicVariables.Input_On.Count != 0) {
+                if (GetPublicVariables.Input_On.Count != 0)
+                {
                     if (GetPublicVariables.Input_On[i])
                     {
                         currentSample[i2] = Variab;
@@ -76,7 +81,7 @@ public class LSLOutput : MonoBehaviour
                 }
                 else
                 {
-                    
+
                     Start_Stop = false;
                     break;
                 }
@@ -94,52 +99,41 @@ public class LSLOutput : MonoBehaviour
         }
     }
 
-    public void SendMarkers(string marker)
-    {
-        // Push the marker to the LSL outlet
-        MarkerOutlet.push_sample(new string[] { marker });
-    }
-
-
     public void StartStream()
     {
         InitStream();
-        InitMarker();
-        SendMarkers("Begin");
-    }
-
-    public void InitMarker()
-    {
-        StreamInfo streamInfo = new StreamInfo("MarkerStream", "Markers", 1, 0, channel_format_t.cf_string, "UniqueMarkerID");
-        MarkerOutlet  = new StreamOutlet(streamInfo);
     }
 
     public void StopStream()
     {
-        SendMarkers("End");
         Start_Stop = false;
         Console.WriteInConsole("Stopping the stream...");
         Signal.sprite = off;
-        MarkerOutlet.Close();
         outlet.Close();
         Console.WriteInConsole("Stream Stopped...");
-       
     }
 
     private void InitStream()
     {
         Console.WriteInConsole("Intiliazing the stream...");
-        if (GetPublicVariables.Number_Input!=0) {
+        if (GetPublicVariables.Number_Input != 0)
+        {
             Start_Stop = true;
+            int i = 0;
             Signal.sprite = on;
             StreamInfo streamInfo = new StreamInfo(StreamName, StreamType, GetPublicVariables.Number_Input, DesiredFrequency, LSL.channel_format_t.cf_float32);
             XMLElement chans = streamInfo.desc().append_child("channels");
-            foreach (string Variab in GetPublicVariables.FieldsName){
-                chans.append_child("channel").append_child_value("label", Variab);
+            foreach (string Variab in GetPublicVariables.FieldsName)
+            {
+                if (PlayerPrefs.GetInt("In" + i) == 1)
+                {
+                    chans.append_child("channel").append_child_value("label", Variab);
+                }
+                i++;
             }
             Console.WriteInConsole("--------------------------------------------------------");
-            Console.WriteInConsole("Stream Name: "+StreamName);
-            Console.WriteInConsole("Stream Type: " + StreamType );
+            Console.WriteInConsole("Stream Name: " + StreamName);
+            Console.WriteInConsole("Stream Type: " + StreamType);
             Console.WriteInConsole("Channel Number: " + GetPublicVariables.Number_Input);
             Console.WriteInConsole("Data Rate: " + Time.fixedDeltaTime * 1000);
             Console.WriteInConsole("--------------------------------------------------------");

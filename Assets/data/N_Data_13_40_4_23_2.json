@@ -1,0 +1,2332 @@
+{
+    "DataEntries": [
+        {
+            "Timestamp": "2024-02-23 13:40:04",
+            "Score": 4.0,
+            "Time": 8.0,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 0.0,
+            "BallSpeed": 10.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:05",
+            "Score": 0.0,
+            "Time": 299.0108642578125,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 0.0,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:06",
+            "Score": 0.0,
+            "Time": 298.0095520019531,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 0.0,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:07",
+            "Score": 0.0,
+            "Time": 297.0099182128906,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5012954473495484,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:08",
+            "Score": 0.0,
+            "Time": 296.0086364746094,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5007481575012208,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:09",
+            "Score": 0.0,
+            "Time": 295.00732421875,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5011892318725587,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:10",
+            "Score": 0.0,
+            "Time": 294.006103515625,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5013761520385743,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:11",
+            "Score": 0.0,
+            "Time": 293.0057678222656,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5013378858566285,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:12",
+            "Score": 0.0,
+            "Time": 292.0046691894531,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5020606517791749,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:13",
+            "Score": 0.0,
+            "Time": 291.0037841796875,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5014903545379639,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:15",
+            "Score": 0.0,
+            "Time": 290.00238037109377,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5012973546981812,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:15",
+            "Score": 0.0,
+            "Time": 289.0013427734375,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5014007091522217,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:16",
+            "Score": 0.0,
+            "Time": 288.0004577636719,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5013874769210816,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:17",
+            "Score": 0.0,
+            "Time": 287.0,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.501441240310669,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:18",
+            "Score": 0.0,
+            "Time": 286.01556396484377,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.501441240310669,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:19",
+            "Score": 0.0,
+            "Time": 285.0138854980469,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.501441240310669,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:20",
+            "Score": 0.0,
+            "Time": 283.9967956542969,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5015684366226197,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:21",
+            "Score": 0.0,
+            "Time": 282.99566650390627,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5015684366226197,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:22",
+            "Score": 0.0,
+            "Time": 281.9945983886719,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5015995502471924,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:23",
+            "Score": 0.0,
+            "Time": 280.9938049316406,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.501670479774475,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:25",
+            "Score": 0.0,
+            "Time": 279.9930114746094,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5016406774520875,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:26",
+            "Score": 0.0,
+            "Time": 278.9915771484375,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5018678903579713,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:27",
+            "Score": 0.0,
+            "Time": 277.99090576171877,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5019171237945557,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:28",
+            "Score": 0.0,
+            "Time": 276.9888610839844,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5019171237945557,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:29",
+            "Score": 0.0,
+            "Time": 275.9885559082031,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5019171237945557,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:30",
+            "Score": 0.0,
+            "Time": 274.987548828125,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.501480221748352,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:31",
+            "Score": 0.0,
+            "Time": 273.9850158691406,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5012969970703126,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:32",
+            "Score": 0.0,
+            "Time": 272.9859313964844,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5016560554504395,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:33",
+            "Score": 0.0,
+            "Time": 271.984619140625,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5016560554504395,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:34",
+            "Score": 0.0,
+            "Time": 270.983642578125,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5016701221466065,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:35",
+            "Score": 0.0,
+            "Time": 269.9823303222656,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5020267963409424,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:36",
+            "Score": 0.0,
+            "Time": 268.9817199707031,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5020267963409424,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:37",
+            "Score": 0.0,
+            "Time": 267.98016357421877,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5019623041152955,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:38",
+            "Score": 0.0,
+            "Time": 266.9964599609375,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5015027523040772,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:39",
+            "Score": 0.0,
+            "Time": 265.9954528808594,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5014017820358277,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:40",
+            "Score": 0.0,
+            "Time": 264.994384765625,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.501317024230957,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:41",
+            "Score": 0.0,
+            "Time": 263.9757080078125,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.501427173614502,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:42",
+            "Score": 0.0,
+            "Time": 262.975341796875,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5016520023345948,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:43",
+            "Score": 0.0,
+            "Time": 261.9747314453125,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.501714825630188,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:44",
+            "Score": 0.0,
+            "Time": 260.9739990234375,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5015497207641602,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:45",
+            "Score": 0.0,
+            "Time": 259.955810546875,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5015497207641602,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:46",
+            "Score": 0.0,
+            "Time": 258.9550476074219,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.502284288406372,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:47",
+            "Score": 0.0,
+            "Time": 257.9542236328125,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5093342065811158,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:48",
+            "Score": 0.0,
+            "Time": 256.95306396484377,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5033262968063355,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:49",
+            "Score": 0.0,
+            "Time": 255.95175170898438,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5024032592773438,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:50",
+            "Score": 0.0,
+            "Time": 254.95156860351563,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.502115249633789,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:51",
+            "Score": 0.0,
+            "Time": 253.95001220703126,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5019006729125977,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:52",
+            "Score": 0.0,
+            "Time": 252.9487762451172,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5016310214996338,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:53",
+            "Score": 0.0,
+            "Time": 251.9482421875,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5015822649002076,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:54",
+            "Score": 0.0,
+            "Time": 250.9475860595703,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5028302669525147,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:55",
+            "Score": 0.0,
+            "Time": 249.94651794433595,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5021570920944214,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:56",
+            "Score": 0.0,
+            "Time": 248.94528198242188,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.501957893371582,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:57",
+            "Score": 0.0,
+            "Time": 247.94427490234376,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.501957893371582,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:58",
+            "Score": 0.0,
+            "Time": 246.9430389404297,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5020201206207276,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:40:59",
+            "Score": 0.0,
+            "Time": 245.94203186035157,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.501628041267395,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:00",
+            "Score": 0.0,
+            "Time": 244.95816040039063,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5016944408416749,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:01",
+            "Score": 0.0,
+            "Time": 243.95703125,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5016216039657593,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:02",
+            "Score": 0.0,
+            "Time": 242.9557647705078,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5016216039657593,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:03",
+            "Score": 0.0,
+            "Time": 241.92152404785157,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5021048784255982,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:04",
+            "Score": 0.0,
+            "Time": 240.92047119140626,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5017123222351075,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:05",
+            "Score": 0.0,
+            "Time": 239.93594360351563,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5016019344329835,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:06",
+            "Score": 0.0,
+            "Time": 238.93296813964845,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5015372037887574,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:07",
+            "Score": 0.0,
+            "Time": 237.93409729003907,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.501434326171875,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:08",
+            "Score": 0.0,
+            "Time": 236.91627502441407,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.501434326171875,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:09",
+            "Score": 0.0,
+            "Time": 235.9154510498047,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5011940002441407,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:10",
+            "Score": 0.0,
+            "Time": 234.91436767578126,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5012359619140626,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:11",
+            "Score": 0.0,
+            "Time": 233.9135284423828,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5012588500976563,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:12",
+            "Score": 0.0,
+            "Time": 232.91268920898438,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5014591217041016,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:13",
+            "Score": 0.0,
+            "Time": 231.91143798828126,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5015382766723633,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:14",
+            "Score": 0.0,
+            "Time": 230.91073608398438,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5015382766723633,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:15",
+            "Score": 0.0,
+            "Time": 229.90914916992188,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5016777515411378,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:16",
+            "Score": 0.0,
+            "Time": 228.90603637695313,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5015217065811158,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:17",
+            "Score": 0.0,
+            "Time": 227.89096069335938,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5014046430587769,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:18",
+            "Score": 0.0,
+            "Time": 226.88961791992188,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5014653205871583,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:19",
+            "Score": 0.0,
+            "Time": 225.8887176513672,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5014653205871583,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:20",
+            "Score": 0.0,
+            "Time": 224.87136840820313,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5018311738967896,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:21",
+            "Score": 0.0,
+            "Time": 223.87026977539063,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5014266967773438,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:22",
+            "Score": 0.0,
+            "Time": 222.86935424804688,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5014991760253907,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:23",
+            "Score": 0.0,
+            "Time": 221.8681182861328,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5014629364013672,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:24",
+            "Score": 0.0,
+            "Time": 220.8734130859375,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5015616416931153,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:25",
+            "Score": 0.0,
+            "Time": 219.86605834960938,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5018781423568726,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:26",
+            "Score": 0.0,
+            "Time": 218.86532592773438,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.501390814781189,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:27",
+            "Score": 0.0,
+            "Time": 217.86424255371095,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5030370950698853,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:28",
+            "Score": 0.0,
+            "Time": 216.8634490966797,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5030370950698853,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:29",
+            "Score": 0.0,
+            "Time": 215.86227416992188,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5030370950698853,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:30",
+            "Score": 0.0,
+            "Time": 214.86138916015626,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5030370950698853,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:31",
+            "Score": 0.0,
+            "Time": 213.86048889160157,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5030370950698853,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:32",
+            "Score": 0.0,
+            "Time": 212.87600708007813,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5030370950698853,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:33",
+            "Score": 0.0,
+            "Time": 211.84165954589845,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5022051334381104,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:34",
+            "Score": 0.0,
+            "Time": 210.84014892578126,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5028878450393677,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:35",
+            "Score": 0.0,
+            "Time": 209.85614013671876,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.502176284790039,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:36",
+            "Score": 0.0,
+            "Time": 208.83645629882813,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5126347541809083,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:37",
+            "Score": 0.0,
+            "Time": 207.8209991455078,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5126347541809083,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:38",
+            "Score": 0.0,
+            "Time": 206.82000732421876,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5071184635162354,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:39",
+            "Score": 0.0,
+            "Time": 205.83543395996095,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5043412446975709,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:40",
+            "Score": 0.0,
+            "Time": 204.8345489501953,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.501943588256836,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:41",
+            "Score": 0.0,
+            "Time": 203.83370971679688,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.501716136932373,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:42",
+            "Score": 0.0,
+            "Time": 202.81094360351563,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5015294551849366,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:43",
+            "Score": 0.0,
+            "Time": 201.81488037109376,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5015294551849366,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:44",
+            "Score": 0.0,
+            "Time": 200.81356811523438,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5015543699264527,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:45",
+            "Score": 0.0,
+            "Time": 199.80950927734376,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5015543699264527,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:46",
+            "Score": 0.0,
+            "Time": 198.7953338623047,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5018224716186524,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:47",
+            "Score": 0.0,
+            "Time": 197.79393005371095,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5026087760925294,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:48",
+            "Score": 0.0,
+            "Time": 196.77651977539063,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.502074956893921,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:49",
+            "Score": 0.0,
+            "Time": 195.77549743652345,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.501804232597351,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:50",
+            "Score": 0.0,
+            "Time": 194.77459716796876,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.501804232597351,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:51",
+            "Score": 0.0,
+            "Time": 193.77378845214845,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5015926361083985,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:52",
+            "Score": 0.0,
+            "Time": 192.77252197265626,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5015926361083985,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:53",
+            "Score": 0.0,
+            "Time": 191.7717742919922,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5017485618591309,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:54",
+            "Score": 0.0,
+            "Time": 190.77066040039063,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5017783641815186,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:55",
+            "Score": 0.0,
+            "Time": 189.76754760742188,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5016902685165406,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:56",
+            "Score": 0.0,
+            "Time": 188.75192260742188,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5016844272613526,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:57",
+            "Score": 0.0,
+            "Time": 187.75100708007813,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5015288591384888,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:58",
+            "Score": 0.0,
+            "Time": 186.7500457763672,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5014522075653077,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:41:59",
+            "Score": 0.0,
+            "Time": 185.74676513671876,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5011756420135499,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:00",
+            "Score": 0.0,
+            "Time": 184.73126220703126,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.501137137413025,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:01",
+            "Score": 0.0,
+            "Time": 183.73013305664063,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5012781620025635,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:02",
+            "Score": 0.0,
+            "Time": 182.7292022705078,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5014439821243287,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:03",
+            "Score": 0.0,
+            "Time": 181.72824096679688,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5016484260559083,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:04",
+            "Score": 0.0,
+            "Time": 180.72718811035157,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5015642642974854,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:05",
+            "Score": 0.0,
+            "Time": 179.72625732421876,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5015183687210084,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:06",
+            "Score": 0.0,
+            "Time": 178.7253875732422,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.501617431640625,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:07",
+            "Score": 0.0,
+            "Time": 177.72406005859376,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5014686584472657,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:08",
+            "Score": 0.0,
+            "Time": 176.723388671875,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.501260757446289,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:09",
+            "Score": 0.0,
+            "Time": 175.7053680419922,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5011491775512696,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:10",
+            "Score": 0.0,
+            "Time": 174.7047119140625,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.501054048538208,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:11",
+            "Score": 0.0,
+            "Time": 173.70196533203126,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5012823343276978,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:12",
+            "Score": 0.0,
+            "Time": 172.70257568359376,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.501312494277954,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:13",
+            "Score": 0.0,
+            "Time": 171.7013702392578,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5015239715576172,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:14",
+            "Score": 0.0,
+            "Time": 170.71531677246095,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5012335777282715,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:15",
+            "Score": 0.0,
+            "Time": 169.71632385253907,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5012335777282715,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:16",
+            "Score": 0.0,
+            "Time": 168.69871520996095,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5014331340789796,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:17",
+            "Score": 0.0,
+            "Time": 167.6806640625,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5014331340789796,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:18",
+            "Score": 0.0,
+            "Time": 166.6963653564453,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5012967586517335,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:19",
+            "Score": 0.0,
+            "Time": 165.69358825683595,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.502426028251648,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:20",
+            "Score": 0.0,
+            "Time": 164.69459533691407,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.502426028251648,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:21",
+            "Score": 0.0,
+            "Time": 163.69361877441407,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5018463134765626,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:22",
+            "Score": 0.0,
+            "Time": 162.67579650878907,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5010337829589844,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:23",
+            "Score": 0.0,
+            "Time": 161.67489624023438,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5013561248779297,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:24",
+            "Score": 0.0,
+            "Time": 160.67372131347657,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5015978813171387,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:25",
+            "Score": 0.0,
+            "Time": 159.66964721679688,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.501383662223816,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:26",
+            "Score": 0.0,
+            "Time": 158.67156982421876,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5013480186462403,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:27",
+            "Score": 0.0,
+            "Time": 157.67083740234376,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5013759136199952,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:28",
+            "Score": 0.0,
+            "Time": 156.6699676513672,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5014203786849976,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:29",
+            "Score": 0.0,
+            "Time": 155.66885375976563,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.501610517501831,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:30",
+            "Score": 0.0,
+            "Time": 154.66355895996095,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.501610517501831,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:31",
+            "Score": 0.0,
+            "Time": 153.6626434326172,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5017741918563843,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:32",
+            "Score": 0.0,
+            "Time": 152.6658477783203,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.501619577407837,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:33",
+            "Score": 0.0,
+            "Time": 151.6650390625,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5013318061828614,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:34",
+            "Score": 0.0,
+            "Time": 150.66375732421876,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5026953220367432,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:35",
+            "Score": 0.0,
+            "Time": 149.66287231445313,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.501863956451416,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:36",
+            "Score": 0.0,
+            "Time": 148.66180419921876,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5017248392105103,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:37",
+            "Score": 0.0,
+            "Time": 147.660888671875,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5016710758209229,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:38",
+            "Score": 0.0,
+            "Time": 146.66004943847657,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5016710758209229,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:39",
+            "Score": 0.0,
+            "Time": 145.67337036132813,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.501699447631836,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:40",
+            "Score": 0.0,
+            "Time": 144.6748504638672,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5014662742614747,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:41",
+            "Score": 0.0,
+            "Time": 143.67176818847657,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5014350414276124,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:42",
+            "Score": 0.0,
+            "Time": 142.6559600830078,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5014880895614625,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:43",
+            "Score": 0.0,
+            "Time": 141.6550750732422,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5014612674713135,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:44",
+            "Score": 0.0,
+            "Time": 140.6539764404297,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5015164613723755,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:45",
+            "Score": 0.0,
+            "Time": 139.6500244140625,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5015287399291993,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:46",
+            "Score": 0.0,
+            "Time": 138.6518096923828,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5086913108825684,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:47",
+            "Score": 0.0,
+            "Time": 137.65121459960938,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5051238536834717,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:48",
+            "Score": 0.0,
+            "Time": 136.64984130859376,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.513056993484497,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:49",
+            "Score": 0.0,
+            "Time": 135.64895629882813,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5072990655899048,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:50",
+            "Score": 0.0,
+            "Time": 134.64791870117188,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5044810771942139,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:51",
+            "Score": 0.0,
+            "Time": 133.64186096191407,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5020816326141358,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:52",
+            "Score": 0.0,
+            "Time": 132.64573669433595,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5081971883773804,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:53",
+            "Score": 0.0,
+            "Time": 131.64466857910157,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5049378871917725,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:54",
+            "Score": 0.0,
+            "Time": 130.64353942871095,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5032776594161988,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:55",
+            "Score": 0.0,
+            "Time": 129.64324951171876,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5024704933166505,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:56",
+            "Score": 0.0,
+            "Time": 128.64186096191407,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.501670479774475,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:57",
+            "Score": 0.0,
+            "Time": 127.64100646972656,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5017107725143433,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:58",
+            "Score": 0.0,
+            "Time": 126.63786315917969,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5015721321105958,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:42:59",
+            "Score": 0.0,
+            "Time": 125.62242126464844,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.501217007637024,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:00",
+            "Score": 0.0,
+            "Time": 124.62138366699219,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.501363754272461,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:01",
+            "Score": 0.0,
+            "Time": 123.62054443359375,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.501363754272461,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:02",
+            "Score": 0.0,
+            "Time": 122.63591003417969,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5027799606323243,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:03",
+            "Score": 0.0,
+            "Time": 121.60142517089844,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.502079725265503,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:04",
+            "Score": 0.0,
+            "Time": 120.60060119628906,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5115292072296143,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:05",
+            "Score": 0.0,
+            "Time": 119.59725952148438,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5137754678726197,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:06",
+            "Score": 0.0,
+            "Time": 118.59840393066406,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.504965901374817,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:07",
+            "Score": 0.0,
+            "Time": 117.56428527832031,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5023744106292725,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:08",
+            "Score": 0.0,
+            "Time": 116.563232421875,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.50188148021698,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:09",
+            "Score": 0.0,
+            "Time": 115.56187438964844,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5027363300323487,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:10",
+            "Score": 0.0,
+            "Time": 114.54457092285156,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5020853281021119,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:11",
+            "Score": 0.0,
+            "Time": 113.543212890625,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5018436908721924,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:12",
+            "Score": 0.0,
+            "Time": 112.54266357421875,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5015779733657838,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:13",
+            "Score": 0.0,
+            "Time": 111.54147338867188,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5017448663711548,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:14",
+            "Score": 0.0,
+            "Time": 110.54039001464844,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5017448663711548,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:15",
+            "Score": 0.0,
+            "Time": 109.55624389648438,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5017726421356202,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:16",
+            "Score": 0.0,
+            "Time": 108.53855895996094,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5124480724334717,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:17",
+            "Score": 0.0,
+            "Time": 107.52095031738281,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5124480724334717,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:18",
+            "Score": 0.0,
+            "Time": 106.53631591796875,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5042908191680909,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:19",
+            "Score": 0.0,
+            "Time": 105.53549194335938,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5030380487442017,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:20",
+            "Score": 0.0,
+            "Time": 104.53446960449219,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5023581981658936,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:21",
+            "Score": 0.0,
+            "Time": 103.53347778320313,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5023581981658936,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:22",
+            "Score": 0.0,
+            "Time": 102.51576232910156,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5018733739852906,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:23",
+            "Score": 0.0,
+            "Time": 101.5146484375,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5015673637390137,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:24",
+            "Score": 0.0,
+            "Time": 100.51362609863281,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5015673637390137,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:25",
+            "Score": 0.0,
+            "Time": 99.5125732421875,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5014790296554566,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:26",
+            "Score": 0.0,
+            "Time": 98.51182556152344,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5015177726745606,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:27",
+            "Score": 0.0,
+            "Time": 97.51103210449219,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5015065670013428,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:28",
+            "Score": 0.0,
+            "Time": 96.50946044921875,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5014933347702027,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:29",
+            "Score": 0.0,
+            "Time": 95.50889587402344,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5014933347702027,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:30",
+            "Score": 0.0,
+            "Time": 94.50794982910156,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5014933347702027,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:31",
+            "Score": 0.0,
+            "Time": 93.50694274902344,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5052485466003419,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:32",
+            "Score": 0.0,
+            "Time": 92.50558471679688,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5052485466003419,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:33",
+            "Score": 0.0,
+            "Time": 91.50502014160156,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5034329891204835,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:34",
+            "Score": 0.0,
+            "Time": 90.50386047363281,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5034329891204835,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:35",
+            "Score": 0.0,
+            "Time": 89.50286865234375,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5034329891204835,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:36",
+            "Score": 0.0,
+            "Time": 88.50175476074219,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5055503845214844,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:37",
+            "Score": 0.0,
+            "Time": 87.50054931640625,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5055503845214844,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:38",
+            "Score": 0.0,
+            "Time": 86.51397705078125,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5028181076049805,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:39",
+            "Score": 0.0,
+            "Time": 85.51434326171875,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.502439022064209,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:40",
+            "Score": 0.0,
+            "Time": 84.5146484375,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.502005934715271,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:41",
+            "Score": 0.0,
+            "Time": 83.51336669921875,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5018404722213746,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:42",
+            "Score": 0.0,
+            "Time": 82.49588012695313,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.501467227935791,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:43",
+            "Score": 0.0,
+            "Time": 81.49456787109375,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5015575885772706,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:44",
+            "Score": 0.0,
+            "Time": 80.49392700195313,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.501476526260376,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:45",
+            "Score": 0.0,
+            "Time": 79.49290466308594,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5015393495559693,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:46",
+            "Score": 0.0,
+            "Time": 78.49160766601563,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5018153190612794,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:47",
+            "Score": 0.0,
+            "Time": 77.49093627929688,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5017545223236085,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:48",
+            "Score": 0.0,
+            "Time": 76.48991394042969,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5017545223236085,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:49",
+            "Score": 0.0,
+            "Time": 75.48883056640625,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5017088651657105,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:50",
+            "Score": 0.0,
+            "Time": 74.48780822753906,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5015792846679688,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:51",
+            "Score": 0.0,
+            "Time": 73.48687744140625,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5015220642089844,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:52",
+            "Score": 0.0,
+            "Time": 72.48582458496094,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5016002655029297,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:53",
+            "Score": 0.0,
+            "Time": 71.48468017578125,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5016088485717774,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:54",
+            "Score": 0.0,
+            "Time": 70.48377990722656,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5015597343444825,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:55",
+            "Score": 0.0,
+            "Time": 69.48280334472656,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5014512538909913,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:56",
+            "Score": 0.0,
+            "Time": 68.48207092285156,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5014512538909913,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:57",
+            "Score": 0.0,
+            "Time": 67.48046875,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.501473307609558,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:58",
+            "Score": 0.0,
+            "Time": 66.49658203125,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5012707710266114,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:43:59",
+            "Score": 0.0,
+            "Time": 65.49562072753906,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5012707710266114,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:00",
+            "Score": 0.0,
+            "Time": 64.49349975585938,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5023661851882935,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:01",
+            "Score": 0.0,
+            "Time": 63.49357604980469,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5023661851882935,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:02",
+            "Score": 0.0,
+            "Time": 62.476043701171878,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5019688606262208,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:03",
+            "Score": 0.0,
+            "Time": 61.47462463378906,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5017510652542115,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:04",
+            "Score": 0.0,
+            "Time": 60.47364807128906,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5021724700927735,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:05",
+            "Score": 0.0,
+            "Time": 59.472900390625,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.501643180847168,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:06",
+            "Score": 0.0,
+            "Time": 58.471649169921878,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5016913414001465,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:07",
+            "Score": 0.0,
+            "Time": 57.47064208984375,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5017688274383546,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:08",
+            "Score": 0.0,
+            "Time": 56.4698486328125,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.501914381980896,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:09",
+            "Score": 0.0,
+            "Time": 55.46839904785156,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5015772581100464,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:10",
+            "Score": 0.0,
+            "Time": 54.46754455566406,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.501309871673584,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:11",
+            "Score": 0.0,
+            "Time": 53.466827392578128,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5014407634735108,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:12",
+            "Score": 0.0,
+            "Time": 52.46490478515625,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5016740560531617,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:13",
+            "Score": 0.0,
+            "Time": 51.465118408203128,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5016740560531617,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:14",
+            "Score": 0.0,
+            "Time": 50.46392822265625,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5016740560531617,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:15",
+            "Score": 0.0,
+            "Time": 49.46257019042969,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5018147230148316,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:16",
+            "Score": 0.0,
+            "Time": 48.46168518066406,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5017085075378419,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:17",
+            "Score": 0.0,
+            "Time": 47.46061706542969,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5017085075378419,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:18",
+            "Score": 0.0,
+            "Time": 46.4576416015625,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5017085075378419,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:19",
+            "Score": 0.0,
+            "Time": 45.44160461425781,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5015714168548585,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:20",
+            "Score": 0.0,
+            "Time": 44.4410400390625,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5015714168548585,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:21",
+            "Score": 0.0,
+            "Time": 43.45684814453125,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.502578616142273,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:22",
+            "Score": 0.0,
+            "Time": 42.455963134765628,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5022201538085938,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:23",
+            "Score": 0.0,
+            "Time": 41.45465087890625,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5022201538085938,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:24",
+            "Score": 0.0,
+            "Time": 40.454071044921878,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5017051696777344,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:25",
+            "Score": 0.0,
+            "Time": 39.43597412109375,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5016155242919922,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:26",
+            "Score": 0.0,
+            "Time": 38.43524169921875,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5016155242919922,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:27",
+            "Score": 0.0,
+            "Time": 37.433929443359378,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5012965202331544,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:28",
+            "Score": 0.0,
+            "Time": 36.4322509765625,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5012396574020386,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:29",
+            "Score": 0.0,
+            "Time": 35.4320068359375,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5013370513916016,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:30",
+            "Score": 0.0,
+            "Time": 34.430999755859378,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5014557838439942,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:31",
+            "Score": 0.0,
+            "Time": 33.43011474609375,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5013535022735596,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:32",
+            "Score": 0.0,
+            "Time": 32.42889404296875,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5086723566055298,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:33",
+            "Score": 0.0,
+            "Time": 31.427978515625,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5050227642059327,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:34",
+            "Score": 0.0,
+            "Time": 30.42681884765625,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.501988172531128,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:35",
+            "Score": 0.0,
+            "Time": 29.42596435546875,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5017722845077515,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:36",
+            "Score": 0.0,
+            "Time": 28.425140380859376,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5016186237335206,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:37",
+            "Score": 0.0,
+            "Time": 27.424468994140626,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5015722513198853,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:38",
+            "Score": 0.0,
+            "Time": 26.4229736328125,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5015722513198853,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:39",
+            "Score": 0.0,
+            "Time": 25.4219970703125,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5015722513198853,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:40",
+            "Score": 0.0,
+            "Time": 24.437835693359376,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5014687776565552,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:41",
+            "Score": 0.0,
+            "Time": 23.403533935546876,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5014687776565552,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:42",
+            "Score": 0.0,
+            "Time": 22.402435302734376,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5013971328735352,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:43",
+            "Score": 0.0,
+            "Time": 21.40057373046875,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.50144624710083,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:44",
+            "Score": 0.0,
+            "Time": 20.41485595703125,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5014373064041138,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:45",
+            "Score": 0.0,
+            "Time": 19.3826904296875,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.501359462738037,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:46",
+            "Score": 0.0,
+            "Time": 18.381072998046876,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.501579999923706,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:47",
+            "Score": 0.0,
+            "Time": 17.38043212890625,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5123884677886963,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:48",
+            "Score": 0.0,
+            "Time": 16.396514892578126,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.504127025604248,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:49",
+            "Score": 0.0,
+            "Time": 15.395477294921875,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5021990537643433,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:50",
+            "Score": 0.0,
+            "Time": 14.3944091796875,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.501854419708252,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:51",
+            "Score": 0.0,
+            "Time": 13.393707275390625,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.501854419708252,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:52",
+            "Score": 0.0,
+            "Time": 12.375732421875,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5017054080963135,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:53",
+            "Score": 0.0,
+            "Time": 11.37432861328125,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5016461610794068,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:54",
+            "Score": 0.0,
+            "Time": 10.37353515625,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5015559196472169,
+            "BallSpeed": 30.0
+        },
+        {
+            "Timestamp": "2024-02-23 13:44:55",
+            "Score": 0.0,
+            "Time": 9.3729248046875,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 1.5129317045211793,
+            "BallSpeed": 30.0
+        }
+    ]
+}
