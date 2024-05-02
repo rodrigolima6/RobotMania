@@ -42,6 +42,7 @@ public class GameManager : MonoBehaviour
     public static float SscorePsecond = 0f;
     public static float SLifePsecond = 0f;
     public static float SReactTime = 0f;
+    public static float SFailedBalls = 0f;
 
     public static float SplayerLife = 10.0f;
     public static float Sscore = 4.0f;
@@ -77,7 +78,6 @@ public class GameManager : MonoBehaviour
     {
         if (TimeChecker.HasFiveMinutesPassed())
         {
-
             UniversalFunctions.ChangeScene("MenuVR2");
         }
     }
@@ -102,11 +102,11 @@ public class GameManager : MonoBehaviour
         
         if (circleFade>0)
         {
-            Arrows.sprite = Arrows_Sprite[1];
+            Arrows.sprite = Arrows_Sprite[2];
         }
         else if (circleFade < 0)
         {
-            Arrows.sprite = Arrows_Sprite[2];
+            Arrows.sprite = Arrows_Sprite[1];
         }
         else
         {
@@ -123,6 +123,11 @@ public class GameManager : MonoBehaviour
         SplayerLife = playerLife;
         Sscore = score;
         Stime = time;
+    }
+
+    public void LeaveScene()
+    {
+        UniversalFunctions.ChangeScene("MenuVR2");
     }
 
     public static void Set_Reflexes(float reflex)
@@ -147,6 +152,7 @@ public class GameManager : MonoBehaviour
         playerLife -= amount;
         // Add your desired logic when the player loses a life (e.g., game over screen, restart level, etc.)
         //Debug.Log("Player life: " + playerLife);
+        SFailedBalls += 1;
         Remove_Add(false);
 
         if (playerLife <= 0)

@@ -1,0 +1,2533 @@
+{
+    "DataEntries": [
+        {
+            "Timestamp": "2023-12-04 10:22:22",
+            "Score": 4.0,
+            "Time": 8.0,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 0.0,
+            "BallSpeed": 10.0,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:22:24",
+            "Score": 0.0,
+            "Time": 299.0150146484375,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 0.0,
+            "BallSpeed": 30.0,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:22:25",
+            "Score": 100.0,
+            "Time": 298.0119323730469,
+            "ScorePerSecond": 0.0,
+            "Reflexes": 0.27867841720581057,
+            "BallSpeed": 30.0,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:22:26",
+            "Score": 200.0,
+            "Time": 296.99981689453127,
+            "ScorePerSecond": 50.0,
+            "Reflexes": 0.06966960430145264,
+            "BallSpeed": 30.0,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:22:27",
+            "Score": 300.0,
+            "Time": 296.0018005371094,
+            "ScorePerSecond": 125.0,
+            "Reflexes": 0.06966960430145264,
+            "BallSpeed": 30.0,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:22:28",
+            "Score": 500.0,
+            "Time": 294.9741516113281,
+            "ScorePerSecond": 62.5,
+            "Reflexes": 0.413858026266098,
+            "BallSpeed": 49.981998443603519,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:22:29",
+            "Score": 600.0,
+            "Time": 293.9648132324219,
+            "ScorePerSecond": 131.25,
+            "Reflexes": 0.206929013133049,
+            "BallSpeed": 49.981998443603519,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:22:30",
+            "Score": 700.0,
+            "Time": 292.9570617675781,
+            "ScorePerSecond": 115.625,
+            "Reflexes": 0.1034645065665245,
+            "BallSpeed": 49.981998443603519,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:22:31",
+            "Score": 800.0,
+            "Time": 291.9432373046875,
+            "ScorePerSecond": 107.8125,
+            "Reflexes": 0.25876516103744509,
+            "BallSpeed": 49.981998443603519,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:22:32",
+            "Score": 1000.0,
+            "Time": 290.9317932128906,
+            "ScorePerSecond": 103.90625,
+            "Reflexes": 0.11353777348995209,
+            "BallSpeed": 49.981998443603519,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:22:33",
+            "Score": 1000.0,
+            "Time": 289.9241943359375,
+            "ScorePerSecond": 151.953125,
+            "Reflexes": 0.11353777348995209,
+            "BallSpeed": 49.981998443603519,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:22:34",
+            "Score": 1100.0,
+            "Time": 288.9052429199219,
+            "ScorePerSecond": 75.9765625,
+            "Reflexes": 0.056768886744976047,
+            "BallSpeed": 49.981998443603519,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:22:35",
+            "Score": 1600.0,
+            "Time": 287.9178771972656,
+            "ScorePerSecond": 87.98828125,
+            "Reflexes": 0.14953400194644929,
+            "BallSpeed": 49.981998443603519,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:22:36",
+            "Score": 1900.0,
+            "Time": 286.8945007324219,
+            "ScorePerSecond": 293.994140625,
+            "Reflexes": 0.3652869164943695,
+            "BallSpeed": 49.981998443603519,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:22:37",
+            "Score": 2100.0,
+            "Time": 285.8910827636719,
+            "ScorePerSecond": 296.9970703125,
+            "Reflexes": 0.36922696232795718,
+            "BallSpeed": 49.981998443603519,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:22:38",
+            "Score": 2400.0,
+            "Time": 284.8835754394531,
+            "ScorePerSecond": 248.49853515625,
+            "Reflexes": 0.20639580488204957,
+            "BallSpeed": 49.981998443603519,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:22:39",
+            "Score": 2700.0,
+            "Time": 283.87677001953127,
+            "ScorePerSecond": 274.249267578125,
+            "Reflexes": 0.24543842673301698,
+            "BallSpeed": 49.981998443603519,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:22:40",
+            "Score": 2800.0,
+            "Time": 282.8630065917969,
+            "ScorePerSecond": 287.1246337890625,
+            "Reflexes": 0.3212122321128845,
+            "BallSpeed": 49.981998443603519,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:22:41",
+            "Score": 2800.0,
+            "Time": 281.87872314453127,
+            "ScorePerSecond": 193.56231689453126,
+            "Reflexes": 0.3212122321128845,
+            "BallSpeed": 49.981998443603519,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:22:42",
+            "Score": 3100.0,
+            "Time": 280.8450622558594,
+            "ScorePerSecond": 96.78115844726563,
+            "Reflexes": 0.17677348852157594,
+            "BallSpeed": 49.981998443603519,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:22:43",
+            "Score": 3300.0,
+            "Time": 279.8363037109375,
+            "ScorePerSecond": 198.3905792236328,
+            "Reflexes": 0.5154796838760376,
+            "BallSpeed": 49.981998443603519,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:22:44",
+            "Score": 3300.0,
+            "Time": 278.82611083984377,
+            "ScorePerSecond": 199.19528198242188,
+            "Reflexes": 0.5154796838760376,
+            "BallSpeed": 49.981998443603519,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:22:45",
+            "Score": 3500.0,
+            "Time": 277.8121337890625,
+            "ScorePerSecond": 99.59764099121094,
+            "Reflexes": 0.3852767050266266,
+            "BallSpeed": 49.981998443603519,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:22:46",
+            "Score": 3700.0,
+            "Time": 276.8173522949219,
+            "ScorePerSecond": 149.798828125,
+            "Reflexes": 0.34108540415763857,
+            "BallSpeed": 49.981998443603519,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:22:47",
+            "Score": 3800.0,
+            "Time": 275.7925109863281,
+            "ScorePerSecond": 174.8994140625,
+            "Reflexes": 0.2995166778564453,
+            "BallSpeed": 49.981998443603519,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:22:48",
+            "Score": 3800.0,
+            "Time": 274.78863525390627,
+            "ScorePerSecond": 137.44970703125,
+            "Reflexes": 0.2995166778564453,
+            "BallSpeed": 49.981998443603519,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:22:49",
+            "Score": 3800.0,
+            "Time": 273.7729797363281,
+            "ScorePerSecond": 68.724853515625,
+            "Reflexes": 0.2995166778564453,
+            "BallSpeed": 49.981998443603519,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:22:50",
+            "Score": 3800.0,
+            "Time": 272.7669677734375,
+            "ScorePerSecond": 34.3624267578125,
+            "Reflexes": 0.2995166778564453,
+            "BallSpeed": 49.981998443603519,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:22:51",
+            "Score": 4100.0,
+            "Time": 271.75775146484377,
+            "ScorePerSecond": 17.18121337890625,
+            "Reflexes": 0.5890252590179443,
+            "BallSpeed": 49.981998443603519,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:22:52",
+            "Score": 4300.0,
+            "Time": 270.7411804199219,
+            "ScorePerSecond": 208.59060668945313,
+            "Reflexes": 0.4512161612510681,
+            "BallSpeed": 49.981998443603519,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:22:53",
+            "Score": 4300.0,
+            "Time": 269.7251281738281,
+            "ScorePerSecond": 154.29530334472657,
+            "Reflexes": 0.4512161612510681,
+            "BallSpeed": 49.981998443603519,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:00",
+            "Score": 5000.0,
+            "Time": 268.70928955078127,
+            "ScorePerSecond": 77.14765167236328,
+            "Reflexes": 0.03144272044301033,
+            "BallSpeed": 50.40800094604492,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:01",
+            "Score": 5000.0,
+            "Time": 267.71002197265627,
+            "ScorePerSecond": 388.5738220214844,
+            "Reflexes": 0.03144272044301033,
+            "BallSpeed": 51.17300033569336,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:02",
+            "Score": 5000.0,
+            "Time": 266.714111328125,
+            "ScorePerSecond": 194.2869110107422,
+            "Reflexes": 0.03144272044301033,
+            "BallSpeed": 51.92900085449219,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:03",
+            "Score": 5100.0,
+            "Time": 265.6864318847656,
+            "ScorePerSecond": 97.1434555053711,
+            "Reflexes": 0.10774711519479752,
+            "BallSpeed": 52.685001373291019,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:04",
+            "Score": 5200.0,
+            "Time": 264.68023681640627,
+            "ScorePerSecond": 98.57173156738281,
+            "Reflexes": 0.26107457280158999,
+            "BallSpeed": 53.441001892089847,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:05",
+            "Score": 5200.0,
+            "Time": 263.6709899902344,
+            "ScorePerSecond": 99.2858657836914,
+            "Reflexes": 0.26107457280158999,
+            "BallSpeed": 54.07099914550781,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:06",
+            "Score": 5400.0,
+            "Time": 262.6533203125,
+            "ScorePerSecond": 49.6429328918457,
+            "Reflexes": 0.24989140033721925,
+            "BallSpeed": 54.83599853515625,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:07",
+            "Score": 5700.0,
+            "Time": 261.63543701171877,
+            "ScorePerSecond": 124.82146453857422,
+            "Reflexes": 0.22559811174869538,
+            "BallSpeed": 55.59199905395508,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:08",
+            "Score": 5900.0,
+            "Time": 260.6153564453125,
+            "ScorePerSecond": 212.41073608398438,
+            "Reflexes": 0.15621012449264527,
+            "BallSpeed": 56.347999572753909,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:09",
+            "Score": 6100.0,
+            "Time": 259.61346435546877,
+            "ScorePerSecond": 206.2053680419922,
+            "Reflexes": 0.26191192865371706,
+            "BallSpeed": 57.095001220703128,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:10",
+            "Score": 6300.0,
+            "Time": 258.6064147949219,
+            "ScorePerSecond": 203.10269165039063,
+            "Reflexes": 0.21541465818881989,
+            "BallSpeed": 57.83300018310547,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:11",
+            "Score": 6400.0,
+            "Time": 257.60400390625,
+            "ScorePerSecond": 201.5513458251953,
+            "Reflexes": 0.21900111436843873,
+            "BallSpeed": 58.5890007019043,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:12",
+            "Score": 6500.0,
+            "Time": 256.59161376953127,
+            "ScorePerSecond": 150.77566528320313,
+            "Reflexes": 0.38841214776039126,
+            "BallSpeed": 59.32699966430664,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:13",
+            "Score": 6600.0,
+            "Time": 255.583251953125,
+            "ScorePerSecond": 125.38783264160156,
+            "Reflexes": 0.31961050629615786,
+            "BallSpeed": 60.055999755859378,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:14",
+            "Score": 6900.0,
+            "Time": 254.5677490234375,
+            "ScorePerSecond": 162.69390869140626,
+            "Reflexes": 0.15365979075431825,
+            "BallSpeed": 60.8120002746582,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:15",
+            "Score": 7200.0,
+            "Time": 253.55068969726563,
+            "ScorePerSecond": 181.34695434570313,
+            "Reflexes": 0.26386070251464846,
+            "BallSpeed": 61.56800079345703,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:16",
+            "Score": 7300.0,
+            "Time": 252.53912353515626,
+            "ScorePerSecond": 240.67347717285157,
+            "Reflexes": 0.31537532806396487,
+            "BallSpeed": 62.33300018310547,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:17",
+            "Score": 7500.0,
+            "Time": 251.52410888671876,
+            "ScorePerSecond": 170.33673095703126,
+            "Reflexes": 0.24386954307556153,
+            "BallSpeed": 63.097999572753909,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:18",
+            "Score": 7600.0,
+            "Time": 250.5113525390625,
+            "ScorePerSecond": 185.16836547851563,
+            "Reflexes": 0.2598360776901245,
+            "BallSpeed": 63.845001220703128,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:19",
+            "Score": 7700.0,
+            "Time": 249.50424194335938,
+            "ScorePerSecond": 142.5841827392578,
+            "Reflexes": 0.25202077627182009,
+            "BallSpeed": 64.45700073242188,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:20",
+            "Score": 7800.0,
+            "Time": 248.49588012695313,
+            "ScorePerSecond": 121.2920913696289,
+            "Reflexes": 0.2489752471446991,
+            "BallSpeed": 65.19499969482422,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:21",
+            "Score": 7900.0,
+            "Time": 247.48109436035157,
+            "ScorePerSecond": 110.64604187011719,
+            "Reflexes": 0.12448762357234955,
+            "BallSpeed": 65.95999908447266,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:22",
+            "Score": 8100.0,
+            "Time": 246.47198486328126,
+            "ScorePerSecond": 105.3230209350586,
+            "Reflexes": 0.16754502058029176,
+            "BallSpeed": 66.71600341796875,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:23",
+            "Score": 8300.0,
+            "Time": 245.462646484375,
+            "ScorePerSecond": 152.66151428222657,
+            "Reflexes": 0.18675701320171357,
+            "BallSpeed": 67.46299743652344,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:24",
+            "Score": 8400.0,
+            "Time": 244.45257568359376,
+            "ScorePerSecond": 176.33074951171876,
+            "Reflexes": 0.09337850660085678,
+            "BallSpeed": 68.20099639892578,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:25",
+            "Score": 8500.0,
+            "Time": 243.448486328125,
+            "ScorePerSecond": 138.16537475585938,
+            "Reflexes": 0.04668925330042839,
+            "BallSpeed": 68.96600341796875,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:26",
+            "Score": 8700.0,
+            "Time": 242.43524169921876,
+            "ScorePerSecond": 119.08268737792969,
+            "Reflexes": 0.20125705003738404,
+            "BallSpeed": 69.71299743652344,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:27",
+            "Score": 8800.0,
+            "Time": 241.4227752685547,
+            "ScorePerSecond": 159.54135131835938,
+            "Reflexes": 0.2595469057559967,
+            "BallSpeed": 70.45099639892578,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:28",
+            "Score": 8800.0,
+            "Time": 240.4113006591797,
+            "ScorePerSecond": 129.7706756591797,
+            "Reflexes": 0.2595469057559967,
+            "BallSpeed": 71.21600341796875,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:29",
+            "Score": 8900.0,
+            "Time": 239.41461181640626,
+            "ScorePerSecond": 64.88533782958985,
+            "Reflexes": 0.12977345287799836,
+            "BallSpeed": 71.96299743652344,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:33",
+            "Score": 9000.0,
+            "Time": 238.39083862304688,
+            "ScorePerSecond": 82.44267272949219,
+            "Reflexes": 0.07359377294778824,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:34",
+            "Score": 9000.0,
+            "Time": 237.3728790283203,
+            "ScorePerSecond": 91.2213363647461,
+            "Reflexes": 0.07359377294778824,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:35",
+            "Score": 9200.0,
+            "Time": 236.36972045898438,
+            "ScorePerSecond": 45.61066818237305,
+            "Reflexes": 0.23864570260047913,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:36",
+            "Score": 9200.0,
+            "Time": 235.37818908691407,
+            "ScorePerSecond": 122.80533599853516,
+            "Reflexes": 0.23864570260047913,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:37",
+            "Score": 9300.0,
+            "Time": 234.3450927734375,
+            "ScorePerSecond": 61.40266799926758,
+            "Reflexes": 0.301852285861969,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:38",
+            "Score": 9500.0,
+            "Time": 233.34805297851563,
+            "ScorePerSecond": 80.70133209228516,
+            "Reflexes": 0.2610328197479248,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:39",
+            "Score": 9600.0,
+            "Time": 232.33102416992188,
+            "ScorePerSecond": 140.3506622314453,
+            "Reflexes": 0.1305164098739624,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:40",
+            "Score": 9800.0,
+            "Time": 231.32095336914063,
+            "ScorePerSecond": 120.17533111572266,
+            "Reflexes": 0.2077847421169281,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:41",
+            "Score": 9900.0,
+            "Time": 230.30545043945313,
+            "ScorePerSecond": 160.08766174316407,
+            "Reflexes": 0.10389237105846405,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:42",
+            "Score": 9900.0,
+            "Time": 229.31585693359376,
+            "ScorePerSecond": 130.0438232421875,
+            "Reflexes": 0.10389237105846405,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:43",
+            "Score": 10100.0,
+            "Time": 228.29034423828126,
+            "ScorePerSecond": 65.02191162109375,
+            "Reflexes": 0.3724944591522217,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:44",
+            "Score": 10400.0,
+            "Time": 227.28604125976563,
+            "ScorePerSecond": 132.51095581054688,
+            "Reflexes": 0.25613078474998476,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:45",
+            "Score": 10500.0,
+            "Time": 226.28579711914063,
+            "ScorePerSecond": 216.25547790527345,
+            "Reflexes": 0.13778142631053925,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:46",
+            "Score": 10700.0,
+            "Time": 225.27102661132813,
+            "ScorePerSecond": 158.12774658203126,
+            "Reflexes": 0.23417527973651887,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:47",
+            "Score": 10800.0,
+            "Time": 224.263427734375,
+            "ScorePerSecond": 179.06387329101563,
+            "Reflexes": 0.11708763986825943,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:48",
+            "Score": 10900.0,
+            "Time": 223.2578125,
+            "ScorePerSecond": 139.5319366455078,
+            "Reflexes": 0.058543819934129718,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:49",
+            "Score": 11100.0,
+            "Time": 222.25390625,
+            "ScorePerSecond": 119.7659683227539,
+            "Reflexes": 0.2744816839694977,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:50",
+            "Score": 11200.0,
+            "Time": 221.26516723632813,
+            "ScorePerSecond": 159.8829803466797,
+            "Reflexes": 0.28580421209335329,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:51",
+            "Score": 11500.0,
+            "Time": 220.23458862304688,
+            "ScorePerSecond": 129.94149780273438,
+            "Reflexes": 0.30669111013412478,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:52",
+            "Score": 11500.0,
+            "Time": 219.23524475097657,
+            "ScorePerSecond": 214.9707489013672,
+            "Reflexes": 0.30669111013412478,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:53",
+            "Score": 11500.0,
+            "Time": 218.2206268310547,
+            "ScorePerSecond": 107.4853744506836,
+            "Reflexes": 0.30669111013412478,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:54",
+            "Score": 11600.0,
+            "Time": 217.2154541015625,
+            "ScorePerSecond": 53.7426872253418,
+            "Reflexes": 0.15334555506706239,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:55",
+            "Score": 11600.0,
+            "Time": 216.2161865234375,
+            "ScorePerSecond": 76.87134552001953,
+            "Reflexes": 0.15334555506706239,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:56",
+            "Score": 11900.0,
+            "Time": 215.21719360351563,
+            "ScorePerSecond": 38.435672760009769,
+            "Reflexes": 0.36945945024490359,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:57",
+            "Score": 11900.0,
+            "Time": 214.18258666992188,
+            "ScorePerSecond": 169.21783447265626,
+            "Reflexes": 0.36945945024490359,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:58",
+            "Score": 11900.0,
+            "Time": 213.17401123046876,
+            "ScorePerSecond": 84.60891723632813,
+            "Reflexes": 0.36945945024490359,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:23:59",
+            "Score": 12000.0,
+            "Time": 212.16696166992188,
+            "ScorePerSecond": 42.30445861816406,
+            "Reflexes": 0.3835517466068268,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:00",
+            "Score": 12100.0,
+            "Time": 211.17495727539063,
+            "ScorePerSecond": 71.15222930908203,
+            "Reflexes": 0.1917758733034134,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:01",
+            "Score": 12300.0,
+            "Time": 210.16903686523438,
+            "ScorePerSecond": 85.57611083984375,
+            "Reflexes": 0.24898995459079743,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:02",
+            "Score": 12500.0,
+            "Time": 209.1466064453125,
+            "ScorePerSecond": 142.78805541992188,
+            "Reflexes": 0.24551698565483094,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:06",
+            "Score": 12600.0,
+            "Time": 208.14549255371095,
+            "ScorePerSecond": 171.39402770996095,
+            "Reflexes": 0.2945343255996704,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:07",
+            "Score": 12700.0,
+            "Time": 207.12554931640626,
+            "ScorePerSecond": 135.697021484375,
+            "Reflexes": 0.26520615816116335,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:08",
+            "Score": 12900.0,
+            "Time": 206.1229705810547,
+            "ScorePerSecond": 117.8485107421875,
+            "Reflexes": 0.30206888914108279,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:09",
+            "Score": 13300.0,
+            "Time": 205.12283325195313,
+            "ScorePerSecond": 158.92425537109376,
+            "Reflexes": 0.35949790477752688,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:10",
+            "Score": 13300.0,
+            "Time": 204.11669921875,
+            "ScorePerSecond": 279.4621276855469,
+            "Reflexes": 0.35949790477752688,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:11",
+            "Score": 13500.0,
+            "Time": 203.10763549804688,
+            "ScorePerSecond": 189.73106384277345,
+            "Reflexes": 0.28746816515922549,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:12",
+            "Score": 13600.0,
+            "Time": 202.10342407226563,
+            "ScorePerSecond": 194.86553955078126,
+            "Reflexes": 0.14373408257961274,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:13",
+            "Score": 13600.0,
+            "Time": 201.0802459716797,
+            "ScorePerSecond": 97.43276977539063,
+            "Reflexes": 0.14373408257961274,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:14",
+            "Score": 13600.0,
+            "Time": 200.08163452148438,
+            "ScorePerSecond": 48.71638488769531,
+            "Reflexes": 0.14373408257961274,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:15",
+            "Score": 13700.0,
+            "Time": 199.06765747070313,
+            "ScorePerSecond": 74.35819244384766,
+            "Reflexes": 0.07186704128980637,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:16",
+            "Score": 13800.0,
+            "Time": 198.04983520507813,
+            "ScorePerSecond": 87.17909240722656,
+            "Reflexes": 0.03593352064490318,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:17",
+            "Score": 13800.0,
+            "Time": 197.04116821289063,
+            "ScorePerSecond": 43.58954620361328,
+            "Reflexes": 0.03593352064490318,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:18",
+            "Score": 14000.0,
+            "Time": 196.036865234375,
+            "ScorePerSecond": 21.79477310180664,
+            "Reflexes": 0.31054091453552248,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:19",
+            "Score": 14100.0,
+            "Time": 195.03842163085938,
+            "ScorePerSecond": 110.89738464355469,
+            "Reflexes": 0.31022727489471438,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:20",
+            "Score": 14100.0,
+            "Time": 194.0228271484375,
+            "ScorePerSecond": 105.44869232177735,
+            "Reflexes": 0.31022727489471438,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:21",
+            "Score": 14300.0,
+            "Time": 193.01686096191407,
+            "ScorePerSecond": 52.72434616088867,
+            "Reflexes": 0.47508832812309267,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:22",
+            "Score": 14300.0,
+            "Time": 192.01028442382813,
+            "ScorePerSecond": 126.36217498779297,
+            "Reflexes": 0.47508832812309267,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:23",
+            "Score": 14300.0,
+            "Time": 191.00743103027345,
+            "ScorePerSecond": 63.181087493896487,
+            "Reflexes": 0.47508832812309267,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:24",
+            "Score": 14300.0,
+            "Time": 189.988525390625,
+            "ScorePerSecond": 31.590543746948243,
+            "Reflexes": 0.23754416406154633,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:25",
+            "Score": 14600.0,
+            "Time": 188.97872924804688,
+            "ScorePerSecond": 65.79527282714844,
+            "Reflexes": 0.1528938114643097,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:26",
+            "Score": 14700.0,
+            "Time": 187.97618103027345,
+            "ScorePerSecond": 132.89764404296876,
+            "Reflexes": 0.2600940465927124,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:27",
+            "Score": 14800.0,
+            "Time": 186.94955444335938,
+            "ScorePerSecond": 116.44882202148438,
+            "Reflexes": 0.2562524676322937,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:28",
+            "Score": 14800.0,
+            "Time": 185.94549560546876,
+            "ScorePerSecond": 108.22441101074219,
+            "Reflexes": 0.2562524676322937,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:29",
+            "Score": 14900.0,
+            "Time": 184.9366455078125,
+            "ScorePerSecond": 54.112205505371097,
+            "Reflexes": 0.12812623381614686,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:30",
+            "Score": 14900.0,
+            "Time": 183.92567443847657,
+            "ScorePerSecond": 77.05610656738281,
+            "Reflexes": 0.12812623381614686,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:31",
+            "Score": 15200.0,
+            "Time": 182.91238403320313,
+            "ScorePerSecond": 38.528053283691409,
+            "Reflexes": 0.16217972338199616,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:32",
+            "Score": 15300.0,
+            "Time": 181.89141845703126,
+            "ScorePerSecond": 169.26402282714845,
+            "Reflexes": 0.23655402660369874,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:33",
+            "Score": 15500.0,
+            "Time": 180.8836669921875,
+            "ScorePerSecond": 184.63201904296876,
+            "Reflexes": 0.13143274188041688,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:34",
+            "Score": 15600.0,
+            "Time": 179.8726806640625,
+            "ScorePerSecond": 192.31600952148438,
+            "Reflexes": 0.2119070142507553,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:39",
+            "Score": 16100.0,
+            "Time": 178.8672637939453,
+            "ScorePerSecond": 146.1580047607422,
+            "Reflexes": 0.09698773920536041,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:40",
+            "Score": 16100.0,
+            "Time": 177.86734008789063,
+            "ScorePerSecond": 273.0790100097656,
+            "Reflexes": 0.09698773920536041,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:41",
+            "Score": 16300.0,
+            "Time": 176.86619567871095,
+            "ScorePerSecond": 186.5395050048828,
+            "Reflexes": 0.07794833183288574,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:42",
+            "Score": 16400.0,
+            "Time": 175.85577392578126,
+            "ScorePerSecond": 193.26974487304688,
+            "Reflexes": 0.2215951681137085,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:43",
+            "Score": 16500.0,
+            "Time": 174.837158203125,
+            "ScorePerSecond": 96.63487243652344,
+            "Reflexes": 0.11079758405685425,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:44",
+            "Score": 16600.0,
+            "Time": 173.8279571533203,
+            "ScorePerSecond": 148.31744384765626,
+            "Reflexes": 0.22501930594444276,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:45",
+            "Score": 16800.0,
+            "Time": 172.82545471191407,
+            "ScorePerSecond": 124.15872192382813,
+            "Reflexes": 0.1253504455089569,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:46",
+            "Score": 16900.0,
+            "Time": 171.80812072753907,
+            "ScorePerSecond": 112.07936096191406,
+            "Reflexes": 0.06267522275447846,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:47",
+            "Score": 16900.0,
+            "Time": 170.80587768554688,
+            "ScorePerSecond": 106.03968048095703,
+            "Reflexes": 0.06267522275447846,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:48",
+            "Score": 17000.0,
+            "Time": 169.81553649902345,
+            "ScorePerSecond": 103.01983642578125,
+            "Reflexes": 0.23199832439422608,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:49",
+            "Score": 17300.0,
+            "Time": 168.7871856689453,
+            "ScorePerSecond": 151.50991821289063,
+            "Reflexes": 0.1699375957250595,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:50",
+            "Score": 17500.0,
+            "Time": 167.77755737304688,
+            "ScorePerSecond": 175.7549591064453,
+            "Reflexes": 0.10198986530303955,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:51",
+            "Score": 17700.0,
+            "Time": 166.76473999023438,
+            "ScorePerSecond": 187.87747192382813,
+            "Reflexes": 0.10353854298591614,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:52",
+            "Score": 17800.0,
+            "Time": 165.75558471679688,
+            "ScorePerSecond": 143.93873596191407,
+            "Reflexes": 0.05176927149295807,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:53",
+            "Score": 17900.0,
+            "Time": 164.74151611328126,
+            "ScorePerSecond": 121.96936798095703,
+            "Reflexes": 0.025884635746479036,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:54",
+            "Score": 18000.0,
+            "Time": 163.727783203125,
+            "ScorePerSecond": 160.98468017578126,
+            "Reflexes": 0.17335796356201173,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:55",
+            "Score": 18300.0,
+            "Time": 162.7380828857422,
+            "ScorePerSecond": 180.49234008789063,
+            "Reflexes": 0.16860616207122804,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:56",
+            "Score": 18500.0,
+            "Time": 161.70408630371095,
+            "ScorePerSecond": 140.2461700439453,
+            "Reflexes": 0.15243443846702577,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:57",
+            "Score": 18600.0,
+            "Time": 160.68807983398438,
+            "ScorePerSecond": 170.12307739257813,
+            "Reflexes": 0.07621721923351288,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:58",
+            "Score": 18800.0,
+            "Time": 159.6777801513672,
+            "ScorePerSecond": 185.06153869628907,
+            "Reflexes": 0.10300053656101227,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:24:59",
+            "Score": 19000.0,
+            "Time": 158.66786193847657,
+            "ScorePerSecond": 192.53076171875,
+            "Reflexes": 0.24263474345207215,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:00",
+            "Score": 19200.0,
+            "Time": 157.65264892578126,
+            "ScorePerSecond": 146.265380859375,
+            "Reflexes": 0.27084219455718996,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:01",
+            "Score": 19400.0,
+            "Time": 156.6563262939453,
+            "ScorePerSecond": 223.1326904296875,
+            "Reflexes": 0.13542109727859498,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:02",
+            "Score": 19600.0,
+            "Time": 155.6256103515625,
+            "ScorePerSecond": 211.56634521484376,
+            "Reflexes": 0.2652662396430969,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:03",
+            "Score": 19700.0,
+            "Time": 154.61221313476563,
+            "ScorePerSecond": 155.78317260742188,
+            "Reflexes": 0.2691000998020172,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:04",
+            "Score": 19800.0,
+            "Time": 153.60440063476563,
+            "ScorePerSecond": 127.89158630371094,
+            "Reflexes": 0.1345500499010086,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:05",
+            "Score": 19900.0,
+            "Time": 152.61715698242188,
+            "ScorePerSecond": 113.94579315185547,
+            "Reflexes": 0.21704815328121186,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:06",
+            "Score": 20100.0,
+            "Time": 151.59487915039063,
+            "ScorePerSecond": 156.972900390625,
+            "Reflexes": 0.2771337032318115,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:07",
+            "Score": 20100.0,
+            "Time": 150.59104919433595,
+            "ScorePerSecond": 128.4864501953125,
+            "Reflexes": 0.2771337032318115,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:08",
+            "Score": 20300.0,
+            "Time": 149.584716796875,
+            "ScorePerSecond": 64.24322509765625,
+            "Reflexes": 0.20537656545639039,
+            "BallSpeed": 73.7959976196289,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:12",
+            "Score": 20500.0,
+            "Time": 148.57029724121095,
+            "ScorePerSecond": 132.12161254882813,
+            "Reflexes": 0.07792876660823822,
+            "BallSpeed": 73.26200103759766,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:13",
+            "Score": 20600.0,
+            "Time": 147.55770874023438,
+            "ScorePerSecond": 166.06080627441407,
+            "Reflexes": 0.2084437608718872,
+            "BallSpeed": 72.47899627685547,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:14",
+            "Score": 20700.0,
+            "Time": 146.54640197753907,
+            "ScorePerSecond": 183.0303955078125,
+            "Reflexes": 0.3653913140296936,
+            "BallSpeed": 71.74099731445313,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:15",
+            "Score": 20900.0,
+            "Time": 145.54579162597657,
+            "ScorePerSecond": 91.51519775390625,
+            "Reflexes": 0.27537643909454348,
+            "BallSpeed": 71.15599822998047,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:16",
+            "Score": 21000.0,
+            "Time": 144.53448486328126,
+            "ScorePerSecond": 145.75759887695313,
+            "Reflexes": 0.28467613458633425,
+            "BallSpeed": 70.37300109863281,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:17",
+            "Score": 21200.0,
+            "Time": 143.5338592529297,
+            "ScorePerSecond": 122.87879943847656,
+            "Reflexes": 0.26541340351104739,
+            "BallSpeed": 69.58100128173828,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:18",
+            "Score": 21400.0,
+            "Time": 142.53785705566407,
+            "ScorePerSecond": 161.43939208984376,
+            "Reflexes": 0.2397618591785431,
+            "BallSpeed": 68.7979965209961,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:19",
+            "Score": 21500.0,
+            "Time": 141.5061798095703,
+            "ScorePerSecond": 180.71969604492188,
+            "Reflexes": 0.11988092958927155,
+            "BallSpeed": 68.02400207519531,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:20",
+            "Score": 21700.0,
+            "Time": 140.4967498779297,
+            "ScorePerSecond": 140.35984802246095,
+            "Reflexes": 0.1759205460548401,
+            "BallSpeed": 67.25900268554688,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:21",
+            "Score": 21700.0,
+            "Time": 139.48550415039063,
+            "ScorePerSecond": 170.179931640625,
+            "Reflexes": 0.1759205460548401,
+            "BallSpeed": 66.50299835205078,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:22",
+            "Score": 21700.0,
+            "Time": 138.48524475097657,
+            "ScorePerSecond": 85.0899658203125,
+            "Reflexes": 0.1759205460548401,
+            "BallSpeed": 65.73799896240235,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:23",
+            "Score": 21800.0,
+            "Time": 137.47621154785157,
+            "ScorePerSecond": 42.54498291015625,
+            "Reflexes": 0.25541022419929507,
+            "BallSpeed": 64.98200225830078,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:24",
+            "Score": 21800.0,
+            "Time": 136.46884155273438,
+            "ScorePerSecond": 71.27249145507813,
+            "Reflexes": 0.25541022419929507,
+            "BallSpeed": 64.35199737548828,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:25",
+            "Score": 21800.0,
+            "Time": 135.47463989257813,
+            "ScorePerSecond": 35.63624572753906,
+            "Reflexes": 0.25541022419929507,
+            "BallSpeed": 63.58700180053711,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:26",
+            "Score": 21900.0,
+            "Time": 134.45265197753907,
+            "ScorePerSecond": 17.81812286376953,
+            "Reflexes": 0.12770511209964753,
+            "BallSpeed": 62.821998596191409,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:27",
+            "Score": 22000.0,
+            "Time": 133.4520263671875,
+            "ScorePerSecond": 58.909061431884769,
+            "Reflexes": 0.23664307594299317,
+            "BallSpeed": 62.03900146484375,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:28",
+            "Score": 22100.0,
+            "Time": 132.43556213378907,
+            "ScorePerSecond": 79.45452880859375,
+            "Reflexes": 0.27644073963165285,
+            "BallSpeed": 61.28300094604492,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:29",
+            "Score": 22100.0,
+            "Time": 131.425537109375,
+            "ScorePerSecond": 89.72726440429688,
+            "Reflexes": 0.27644073963165285,
+            "BallSpeed": 60.5,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:30",
+            "Score": 22300.0,
+            "Time": 130.4153594970703,
+            "ScorePerSecond": 44.86363220214844,
+            "Reflexes": 0.2320587933063507,
+            "BallSpeed": 59.70800018310547,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:31",
+            "Score": 22400.0,
+            "Time": 129.4174346923828,
+            "ScorePerSecond": 122.43181610107422,
+            "Reflexes": 0.2427612692117691,
+            "BallSpeed": 58.76300048828125,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:32",
+            "Score": 22500.0,
+            "Time": 128.4152374267578,
+            "ScorePerSecond": 111.21591186523438,
+            "Reflexes": 0.12138063460588455,
+            "BallSpeed": 57.808998107910159,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:33",
+            "Score": 22500.0,
+            "Time": 127.396240234375,
+            "ScorePerSecond": 105.60795593261719,
+            "Reflexes": 0.12138063460588455,
+            "BallSpeed": 56.85499954223633,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:34",
+            "Score": 22700.0,
+            "Time": 126.39176940917969,
+            "ScorePerSecond": 52.803977966308597,
+            "Reflexes": 0.25221556425094607,
+            "BallSpeed": 55.90999984741211,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:35",
+            "Score": 22800.0,
+            "Time": 125.38851928710938,
+            "ScorePerSecond": 126.40199279785156,
+            "Reflexes": 0.2741638123989105,
+            "BallSpeed": 54.946998596191409,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:36",
+            "Score": 22900.0,
+            "Time": 124.37574768066406,
+            "ScorePerSecond": 113.20099639892578,
+            "Reflexes": 0.3744247555732727,
+            "BallSpeed": 53.99300003051758,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:37",
+            "Score": 23100.0,
+            "Time": 123.37539672851563,
+            "ScorePerSecond": 106.60049438476563,
+            "Reflexes": 0.26524466276168826,
+            "BallSpeed": 53.05699920654297,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:38",
+            "Score": 23200.0,
+            "Time": 122.35569763183594,
+            "ScorePerSecond": 153.3002471923828,
+            "Reflexes": 0.26310786604881289,
+            "BallSpeed": 52.09400177001953,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:39",
+            "Score": 23200.0,
+            "Time": 121.34059143066406,
+            "ScorePerSecond": 126.6501235961914,
+            "Reflexes": 0.26310786604881289,
+            "BallSpeed": 51.13999938964844,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:40",
+            "Score": 23400.0,
+            "Time": 120.34091186523438,
+            "ScorePerSecond": 63.3250617980957,
+            "Reflexes": 0.22165313363075257,
+            "BallSpeed": 50.18600082397461,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:41",
+            "Score": 23500.0,
+            "Time": 119.32658386230469,
+            "ScorePerSecond": 131.66253662109376,
+            "Reflexes": 0.11082656681537628,
+            "BallSpeed": 49.222999572753909,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:49",
+            "Score": 23600.0,
+            "Time": 118.322265625,
+            "ScorePerSecond": 115.83126831054688,
+            "Reflexes": 0.2976389229297638,
+            "BallSpeed": 43.279998779296878,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:50",
+            "Score": 23800.0,
+            "Time": 117.30696105957031,
+            "ScorePerSecond": 107.91563415527344,
+            "Reflexes": 0.4384958744049072,
+            "BallSpeed": 44.23400115966797,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:51",
+            "Score": 24000.0,
+            "Time": 116.31634521484375,
+            "ScorePerSecond": 203.95782470703126,
+            "Reflexes": 0.5374918580055237,
+            "BallSpeed": 45.1879997253418,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:52",
+            "Score": 24200.0,
+            "Time": 115.28590393066406,
+            "ScorePerSecond": 201.97891235351563,
+            "Reflexes": 0.3334619998931885,
+            "BallSpeed": 46.1510009765625,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:53",
+            "Score": 24300.0,
+            "Time": 114.2655029296875,
+            "ScorePerSecond": 200.9894561767578,
+            "Reflexes": 0.16673099994659425,
+            "BallSpeed": 47.10499954223633,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:54",
+            "Score": 24400.0,
+            "Time": 113.26228332519531,
+            "ScorePerSecond": 150.49472045898438,
+            "Reflexes": 0.08336549997329712,
+            "BallSpeed": 48.058998107910159,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:55",
+            "Score": 24500.0,
+            "Time": 112.26254272460938,
+            "ScorePerSecond": 125.24736022949219,
+            "Reflexes": 0.04168274998664856,
+            "BallSpeed": 49.02199935913086,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:56",
+            "Score": 24600.0,
+            "Time": 111.24966430664063,
+            "ScorePerSecond": 112.6236801147461,
+            "Reflexes": 0.02084137499332428,
+            "BallSpeed": 49.97600173950195,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:57",
+            "Score": 24700.0,
+            "Time": 110.24586486816406,
+            "ScorePerSecond": 56.31184005737305,
+            "Reflexes": 0.1421269178390503,
+            "BallSpeed": 50.93000030517578,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:58",
+            "Score": 24700.0,
+            "Time": 109.23408508300781,
+            "ScorePerSecond": 78.15592193603516,
+            "Reflexes": 0.1421269178390503,
+            "BallSpeed": 51.88399887084961,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:25:59",
+            "Score": 24800.0,
+            "Time": 108.22146606445313,
+            "ScorePerSecond": 39.07796096801758,
+            "Reflexes": 0.18020957708358766,
+            "BallSpeed": 52.84700012207031,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:26:00",
+            "Score": 24900.0,
+            "Time": 107.21624755859375,
+            "ScorePerSecond": 69.53897857666016,
+            "Reflexes": 0.2502915561199188,
+            "BallSpeed": 53.80099868774414,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:26:01",
+            "Score": 25000.0,
+            "Time": 106.20930480957031,
+            "ScorePerSecond": 134.7694854736328,
+            "Reflexes": 0.1251457780599594,
+            "BallSpeed": 54.763999938964847,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:26:02",
+            "Score": 25200.0,
+            "Time": 105.21514892578125,
+            "ScorePerSecond": 117.3847427368164,
+            "Reflexes": 0.16885969042778016,
+            "BallSpeed": 55.70899963378906,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:26:03",
+            "Score": 25300.0,
+            "Time": 104.19305419921875,
+            "ScorePerSecond": 158.69236755371095,
+            "Reflexes": 0.08442984521389008,
+            "BallSpeed": 56.672000885009769,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:26:04",
+            "Score": 25400.0,
+            "Time": 103.18023681640625,
+            "ScorePerSecond": 79.34618377685547,
+            "Reflexes": 0.20201259851455689,
+            "BallSpeed": 57.617000579833987,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:26:05",
+            "Score": 25600.0,
+            "Time": 102.17747497558594,
+            "ScorePerSecond": 139.673095703125,
+            "Reflexes": 0.21256674826145173,
+            "BallSpeed": 58.58000183105469,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:26:06",
+            "Score": 25800.0,
+            "Time": 101.16729736328125,
+            "ScorePerSecond": 169.8365478515625,
+            "Reflexes": 0.21490010619163514,
+            "BallSpeed": 59.722999572753909,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:26:07",
+            "Score": 25900.0,
+            "Time": 100.151611328125,
+            "ScorePerSecond": 184.91827392578126,
+            "Reflexes": 0.10745005309581757,
+            "BallSpeed": 60.676998138427737,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:26:08",
+            "Score": 26100.0,
+            "Time": 99.15811157226563,
+            "ScorePerSecond": 142.45913696289063,
+            "Reflexes": 0.19993533194065095,
+            "BallSpeed": 61.63100051879883,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:26:09",
+            "Score": 26100.0,
+            "Time": 98.12786865234375,
+            "ScorePerSecond": 121.22956848144531,
+            "Reflexes": 0.19993533194065095,
+            "BallSpeed": 62.584999084472659,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:26:10",
+            "Score": 26300.0,
+            "Time": 97.13644409179688,
+            "ScorePerSecond": 110.61478424072266,
+            "Reflexes": 0.19041046500205995,
+            "BallSpeed": 63.54800033569336,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:26:11",
+            "Score": 26400.0,
+            "Time": 96.13638305664063,
+            "ScorePerSecond": 155.30738830566407,
+            "Reflexes": 0.20471756160259248,
+            "BallSpeed": 64.51100158691406,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:26:12",
+            "Score": 26400.0,
+            "Time": 95.11470031738281,
+            "ScorePerSecond": 77.65369415283203,
+            "Reflexes": 0.20471756160259248,
+            "BallSpeed": 65.46499633789063,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:26:13",
+            "Score": 26500.0,
+            "Time": 94.10652160644531,
+            "ScorePerSecond": 88.82684326171875,
+            "Reflexes": 0.10235878080129624,
+            "BallSpeed": 66.41899871826172,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:26:14",
+            "Score": 26500.0,
+            "Time": 93.09341430664063,
+            "ScorePerSecond": 44.413421630859378,
+            "Reflexes": 0.10235878080129624,
+            "BallSpeed": 67.37300109863281,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:26:15",
+            "Score": 26600.0,
+            "Time": 92.08740234375,
+            "ScorePerSecond": 72.20671081542969,
+            "Reflexes": 0.16856525838375092,
+            "BallSpeed": 68.3270034790039,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:26:16",
+            "Score": 26700.0,
+            "Time": 91.08016967773438,
+            "ScorePerSecond": 86.10335540771485,
+            "Reflexes": 0.20642924308776856,
+            "BallSpeed": 69.28099822998047,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:26:17",
+            "Score": 26800.0,
+            "Time": 90.09663391113281,
+            "ScorePerSecond": 93.05168151855469,
+            "Reflexes": 0.24679219722747804,
+            "BallSpeed": 70.24400329589844,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:26:18",
+            "Score": 26900.0,
+            "Time": 89.06765747070313,
+            "ScorePerSecond": 96.52584075927735,
+            "Reflexes": 0.25246256589889529,
+            "BallSpeed": 71.197998046875,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:26:32",
+            "Score": 27300.0,
+            "Time": 88.0654296875,
+            "ScorePerSecond": 198.26292419433595,
+            "Reflexes": 0.22713030874729157,
+            "BallSpeed": 84.77899932861328,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:26:33",
+            "Score": 27400.0,
+            "Time": 87.04470825195313,
+            "ScorePerSecond": 199.1314697265625,
+            "Reflexes": 0.11356515437364578,
+            "BallSpeed": 85.73300170898438,
+            "FailedBalls": 0.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:26:34",
+            "Score": 27500.0,
+            "Time": 86.03363037109375,
+            "ScorePerSecond": 149.56573486328126,
+            "Reflexes": 0.7814506888389587,
+            "BallSpeed": 86.68699645996094,
+            "FailedBalls": 1.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:26:35",
+            "Score": 27600.0,
+            "Time": 85.02182006835938,
+            "ScorePerSecond": 124.78286743164063,
+            "Reflexes": 0.9465452432632446,
+            "BallSpeed": 87.6500015258789,
+            "FailedBalls": 2.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:26:36",
+            "Score": 27700.0,
+            "Time": 84.00361633300781,
+            "ScorePerSecond": 112.39143371582031,
+            "Reflexes": 0.4732726216316223,
+            "BallSpeed": 88.61299896240235,
+            "FailedBalls": 2.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:26:37",
+            "Score": 27700.0,
+            "Time": 82.98875427246094,
+            "ScorePerSecond": 56.195716857910159,
+            "Reflexes": 0.4732726216316223,
+            "BallSpeed": 89.56700134277344,
+            "FailedBalls": 2.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:26:38",
+            "Score": 27700.0,
+            "Time": 81.99884033203125,
+            "ScorePerSecond": 28.097858428955079,
+            "Reflexes": 0.23663631081581117,
+            "BallSpeed": 90.52100372314453,
+            "FailedBalls": 2.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:26:39",
+            "Score": 27900.0,
+            "Time": 80.98057556152344,
+            "ScorePerSecond": 64.0489273071289,
+            "Reflexes": 0.3564468026161194,
+            "BallSpeed": 91.48400115966797,
+            "FailedBalls": 2.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:26:40",
+            "Score": 28000.0,
+            "Time": 79.98126220703125,
+            "ScorePerSecond": 82.02445983886719,
+            "Reflexes": 0.1782234013080597,
+            "BallSpeed": 92.4469985961914,
+            "FailedBalls": 2.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:26:41",
+            "Score": 28100.0,
+            "Time": 78.98410034179688,
+            "ScorePerSecond": 141.01223754882813,
+            "Reflexes": 0.1519281268119812,
+            "BallSpeed": 93.4010009765625,
+            "FailedBalls": 2.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:26:42",
+            "Score": 28200.0,
+            "Time": 77.96676635742188,
+            "ScorePerSecond": 120.50611877441406,
+            "Reflexes": 0.1519281268119812,
+            "BallSpeed": 94.5530014038086,
+            "FailedBalls": 2.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:26:43",
+            "Score": 28200.0,
+            "Time": 76.9775390625,
+            "ScorePerSecond": 60.25305938720703,
+            "Reflexes": 0.8305264711380005,
+            "BallSpeed": 95.31800079345703,
+            "FailedBalls": 3.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:26:44",
+            "Score": 28300.0,
+            "Time": 75.95710754394531,
+            "ScorePerSecond": 30.126529693603517,
+            "Reflexes": 0.41526323556900027,
+            "BallSpeed": 96.46099853515625,
+            "FailedBalls": 3.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:26:45",
+            "Score": 28400.0,
+            "Time": 74.96116638183594,
+            "ScorePerSecond": 65.06326293945313,
+            "Reflexes": 0.519040584564209,
+            "BallSpeed": 97.23500061035156,
+            "FailedBalls": 3.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:26:46",
+            "Score": 28700.0,
+            "Time": 73.93522644042969,
+            "ScorePerSecond": 182.53163146972657,
+            "Reflexes": 0.17921799421310426,
+            "BallSpeed": 98.37799835205078,
+            "FailedBalls": 3.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:26:48",
+            "Score": 28700.0,
+            "Time": 72.92213439941406,
+            "ScorePerSecond": 141.26580810546876,
+            "Reflexes": 0.17921799421310426,
+            "BallSpeed": 99.34100341796875,
+            "FailedBalls": 3.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:26:49",
+            "Score": 28900.0,
+            "Time": 71.910888671875,
+            "ScorePerSecond": 120.63290405273438,
+            "Reflexes": 0.10779659450054169,
+            "BallSpeed": 100.29499816894531,
+            "FailedBalls": 3.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:26:50",
+            "Score": 29000.0,
+            "Time": 70.91046142578125,
+            "ScorePerSecond": 160.3164520263672,
+            "Reflexes": 0.18684813380241395,
+            "BallSpeed": 101.2490005493164,
+            "FailedBalls": 3.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:26:51",
+            "Score": 29000.0,
+            "Time": 69.89312744140625,
+            "ScorePerSecond": 80.1582260131836,
+            "Reflexes": 0.18684813380241395,
+            "BallSpeed": 102.21199798583985,
+            "FailedBalls": 3.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:26:52",
+            "Score": 29100.0,
+            "Time": 68.88349914550781,
+            "ScorePerSecond": 90.07911682128906,
+            "Reflexes": 0.2633535861968994,
+            "BallSpeed": 103.16600036621094,
+            "FailedBalls": 3.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:26:53",
+            "Score": 29100.0,
+            "Time": 67.87834167480469,
+            "ScorePerSecond": 45.03955841064453,
+            "Reflexes": 0.2633535861968994,
+            "BallSpeed": 104.12000274658203,
+            "FailedBalls": 3.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:26:54",
+            "Score": 29300.0,
+            "Time": 66.86250305175781,
+            "ScorePerSecond": 72.519775390625,
+            "Reflexes": 0.1095624566078186,
+            "BallSpeed": 105.0739974975586,
+            "FailedBalls": 3.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:26:55",
+            "Score": 29300.0,
+            "Time": 65.8472900390625,
+            "ScorePerSecond": 86.2598876953125,
+            "Reflexes": 0.1095624566078186,
+            "BallSpeed": 106.03700256347656,
+            "FailedBalls": 3.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:26:56",
+            "Score": 29400.0,
+            "Time": 64.84434509277344,
+            "ScorePerSecond": 93.12994384765625,
+            "Reflexes": 0.2288992702960968,
+            "BallSpeed": 107.0,
+            "FailedBalls": 3.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:26:57",
+            "Score": 29400.0,
+            "Time": 63.828369140625,
+            "ScorePerSecond": 46.564971923828128,
+            "Reflexes": 0.2288992702960968,
+            "BallSpeed": 107.94499969482422,
+            "FailedBalls": 3.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:26:58",
+            "Score": 29600.0,
+            "Time": 62.821319580078128,
+            "ScorePerSecond": 73.28248596191406,
+            "Reflexes": 0.6007939577102661,
+            "BallSpeed": 108.90799713134766,
+            "FailedBalls": 5.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:26:59",
+            "Score": 29800.0,
+            "Time": 61.80833435058594,
+            "ScorePerSecond": 136.6412353515625,
+            "Reflexes": 0.2286401093006134,
+            "BallSpeed": 109.87100219726563,
+            "FailedBalls": 5.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:27:00",
+            "Score": 29800.0,
+            "Time": 60.79035949707031,
+            "ScorePerSecond": 118.32061767578125,
+            "Reflexes": 0.2286401093006134,
+            "BallSpeed": 110.82499694824219,
+            "FailedBalls": 5.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:27:01",
+            "Score": 30000.0,
+            "Time": 59.7830810546875,
+            "ScorePerSecond": 109.16030883789063,
+            "Reflexes": 0.12288344651460648,
+            "BallSpeed": 111.78800201416016,
+            "FailedBalls": 5.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:27:03",
+            "Score": 30100.0,
+            "Time": 58.78422546386719,
+            "ScorePerSecond": 104.58015441894531,
+            "Reflexes": 0.06144172325730324,
+            "BallSpeed": 114.46099853515625,
+            "FailedBalls": 5.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:27:04",
+            "Score": 30100.0,
+            "Time": 57.78253173828125,
+            "ScorePerSecond": 102.29007720947266,
+            "Reflexes": 0.06144172325730324,
+            "BallSpeed": 112.97000122070313,
+            "FailedBalls": 5.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:27:05",
+            "Score": 30200.0,
+            "Time": 56.771331787109378,
+            "ScorePerSecond": 51.14503860473633,
+            "Reflexes": 0.5619937777519226,
+            "BallSpeed": 111.99800109863281,
+            "FailedBalls": 5.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:27:06",
+            "Score": 30300.0,
+            "Time": 55.765655517578128,
+            "ScorePerSecond": 75.57251739501953,
+            "Reflexes": 0.7005068063735962,
+            "BallSpeed": 111.0530014038086,
+            "FailedBalls": 5.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:27:07",
+            "Score": 30500.0,
+            "Time": 54.76377868652344,
+            "ScorePerSecond": 87.7862548828125,
+            "Reflexes": 0.26741185784339907,
+            "BallSpeed": 110.0989990234375,
+            "FailedBalls": 5.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:27:08",
+            "Score": 30600.0,
+            "Time": 53.75730895996094,
+            "ScorePerSecond": 143.89312744140626,
+            "Reflexes": 0.6962835192680359,
+            "BallSpeed": 109.12699890136719,
+            "FailedBalls": 7.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:27:09",
+            "Score": 30700.0,
+            "Time": 52.75634765625,
+            "ScorePerSecond": 171.94656372070313,
+            "Reflexes": 0.5222216844558716,
+            "BallSpeed": 108.1729965209961,
+            "FailedBalls": 7.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:27:10",
+            "Score": 30900.0,
+            "Time": 51.75389099121094,
+            "ScorePerSecond": 135.97328186035157,
+            "Reflexes": 0.20979049801826478,
+            "BallSpeed": 107.21900177001953,
+            "FailedBalls": 7.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:27:12",
+            "Score": 31100.0,
+            "Time": 50.74571228027344,
+            "ScorePerSecond": 217.98663330078126,
+            "Reflexes": 0.34011775255203249,
+            "BallSpeed": 106.25599670410156,
+            "FailedBalls": 7.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:27:13",
+            "Score": 31300.0,
+            "Time": 49.733489990234378,
+            "ScorePerSecond": 158.99331665039063,
+            "Reflexes": 0.18760664761066438,
+            "BallSpeed": 105.302001953125,
+            "FailedBalls": 7.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:27:14",
+            "Score": 31600.0,
+            "Time": 48.7156982421875,
+            "ScorePerSecond": 179.4966583251953,
+            "Reflexes": 0.19351956248283387,
+            "BallSpeed": 104.3479995727539,
+            "FailedBalls": 7.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:27:15",
+            "Score": 31800.0,
+            "Time": 47.709381103515628,
+            "ScorePerSecond": 189.74832153320313,
+            "Reflexes": 0.16394996643066407,
+            "BallSpeed": 103.40299987792969,
+            "FailedBalls": 7.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:27:16",
+            "Score": 31900.0,
+            "Time": 46.712493896484378,
+            "ScorePerSecond": 194.87416076660157,
+            "Reflexes": 0.08197498321533203,
+            "BallSpeed": 102.44000244140625,
+            "FailedBalls": 7.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:27:17",
+            "Score": 32000.0,
+            "Time": 45.7059326171875,
+            "ScorePerSecond": 147.43707275390626,
+            "Reflexes": 0.040987491607666019,
+            "BallSpeed": 101.47699737548828,
+            "FailedBalls": 7.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:27:18",
+            "Score": 32000.0,
+            "Time": 44.715118408203128,
+            "ScorePerSecond": 123.71853637695313,
+            "Reflexes": 0.1481945514678955,
+            "BallSpeed": 100.53199768066406,
+            "FailedBalls": 7.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:27:19",
+            "Score": 32200.0,
+            "Time": 43.683868408203128,
+            "ScorePerSecond": 111.85926818847656,
+            "Reflexes": 0.21376097202301026,
+            "BallSpeed": 99.61399841308594,
+            "FailedBalls": 7.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:27:20",
+            "Score": 32300.0,
+            "Time": 42.681243896484378,
+            "ScorePerSecond": 105.92963409423828,
+            "Reflexes": 0.21846801042556764,
+            "BallSpeed": 98.66000366210938,
+            "FailedBalls": 7.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:27:21",
+            "Score": 32400.0,
+            "Time": 41.667999267578128,
+            "ScorePerSecond": 152.96481323242188,
+            "Reflexes": 0.3841821253299713,
+            "BallSpeed": 97.85900115966797,
+            "FailedBalls": 7.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:27:22",
+            "Score": 32400.0,
+            "Time": 40.676422119140628,
+            "ScorePerSecond": 76.48240661621094,
+            "Reflexes": 0.3841821253299713,
+            "BallSpeed": 97.07599639892578,
+            "FailedBalls": 7.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:27:23",
+            "Score": 32500.0,
+            "Time": 39.653167724609378,
+            "ScorePerSecond": 38.24120330810547,
+            "Reflexes": 0.19209106266498567,
+            "BallSpeed": 96.28399658203125,
+            "FailedBalls": 7.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:27:24",
+            "Score": 32600.0,
+            "Time": 38.6424560546875,
+            "ScorePerSecond": 69.12060546875,
+            "Reflexes": 0.09604553133249283,
+            "BallSpeed": 95.5009994506836,
+            "FailedBalls": 7.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:27:25",
+            "Score": 32700.0,
+            "Time": 37.63165283203125,
+            "ScorePerSecond": 84.560302734375,
+            "Reflexes": 0.048022765666246417,
+            "BallSpeed": 94.71800231933594,
+            "FailedBalls": 7.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:27:26",
+            "Score": 32800.0,
+            "Time": 36.6280517578125,
+            "ScorePerSecond": 92.2801513671875,
+            "Reflexes": 0.024011382833123208,
+            "BallSpeed": 93.9530029296875,
+            "FailedBalls": 7.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:27:27",
+            "Score": 32900.0,
+            "Time": 35.610382080078128,
+            "ScorePerSecond": 146.14007568359376,
+            "Reflexes": 0.20176398754119874,
+            "BallSpeed": 93.18800354003906,
+            "FailedBalls": 7.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:27:28",
+            "Score": 33100.0,
+            "Time": 34.594482421875,
+            "ScorePerSecond": 73.07003784179688,
+            "Reflexes": 0.23292085528373719,
+            "BallSpeed": 92.4229965209961,
+            "FailedBalls": 7.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:27:29",
+            "Score": 33200.0,
+            "Time": 33.573394775390628,
+            "ScorePerSecond": 136.53501892089845,
+            "Reflexes": 0.11646042764186859,
+            "BallSpeed": 91.65799713134766,
+            "FailedBalls": 7.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:27:30",
+            "Score": 33400.0,
+            "Time": 32.558013916015628,
+            "ScorePerSecond": 118.26750946044922,
+            "Reflexes": 0.19711437821388246,
+            "BallSpeed": 90.875,
+            "FailedBalls": 7.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:27:31",
+            "Score": 33500.0,
+            "Time": 31.541412353515626,
+            "ScorePerSecond": 159.13375854492188,
+            "Reflexes": 0.26348942518234255,
+            "BallSpeed": 90.12799835205078,
+            "FailedBalls": 7.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:27:32",
+            "Score": 33700.0,
+            "Time": 30.533905029296876,
+            "ScorePerSecond": 129.56687927246095,
+            "Reflexes": 0.5163728594779968,
+            "BallSpeed": 89.38099670410156,
+            "FailedBalls": 7.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:27:33",
+            "Score": 33800.0,
+            "Time": 29.52508544921875,
+            "ScorePerSecond": 164.783447265625,
+            "Reflexes": 0.3787613809108734,
+            "BallSpeed": 88.74199676513672,
+            "FailedBalls": 7.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:27:43",
+            "Score": 33800.0,
+            "Time": 28.51434326171875,
+            "ScorePerSecond": 132.3917236328125,
+            "Reflexes": 0.3787613809108734,
+            "BallSpeed": 81.11900329589844,
+            "FailedBalls": 7.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:27:44",
+            "Score": 34000.0,
+            "Time": 27.493438720703126,
+            "ScorePerSecond": 116.19586181640625,
+            "Reflexes": 0.37082865834236147,
+            "BallSpeed": 80.35399627685547,
+            "FailedBalls": 7.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:27:45",
+            "Score": 34200.0,
+            "Time": 26.491119384765626,
+            "ScorePerSecond": 158.09793090820313,
+            "Reflexes": 0.20928430557250977,
+            "BallSpeed": 79.57099914550781,
+            "FailedBalls": 7.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:27:46",
+            "Score": 34300.0,
+            "Time": 25.48883056640625,
+            "ScorePerSecond": 129.04896545410157,
+            "Reflexes": 0.20620465278625489,
+            "BallSpeed": 78.78800201416016,
+            "FailedBalls": 7.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:27:47",
+            "Score": 34500.0,
+            "Time": 24.48260498046875,
+            "ScorePerSecond": 164.52447509765626,
+            "Reflexes": 0.16896754503250123,
+            "BallSpeed": 78.02300262451172,
+            "FailedBalls": 7.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:27:48",
+            "Score": 34600.0,
+            "Time": 23.476715087890626,
+            "ScorePerSecond": 182.26223754882813,
+            "Reflexes": 0.08448377251625061,
+            "BallSpeed": 77.25800323486328,
+            "FailedBalls": 7.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:27:49",
+            "Score": 34700.0,
+            "Time": 22.467987060546876,
+            "ScorePerSecond": 141.13111877441407,
+            "Reflexes": 0.042241886258125308,
+            "BallSpeed": 76.49299621582031,
+            "FailedBalls": 7.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:27:50",
+            "Score": 34900.0,
+            "Time": 21.4619140625,
+            "ScorePerSecond": 120.56555938720703,
+            "Reflexes": 0.13469071686267854,
+            "BallSpeed": 75.70099639892578,
+            "FailedBalls": 7.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:27:51",
+            "Score": 35000.0,
+            "Time": 20.447174072265626,
+            "ScorePerSecond": 110.28277587890625,
+            "Reflexes": 0.17481300234794618,
+            "BallSpeed": 75.08000183105469,
+            "FailedBalls": 7.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:27:52",
+            "Score": 35100.0,
+            "Time": 19.429840087890626,
+            "ScorePerSecond": 155.14138793945313,
+            "Reflexes": 0.08740650117397309,
+            "BallSpeed": 74.33300018310547,
+            "FailedBalls": 7.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:27:53",
+            "Score": 35300.0,
+            "Time": 18.43804931640625,
+            "ScorePerSecond": 127.57069396972656,
+            "Reflexes": 0.20233258605003358,
+            "BallSpeed": 73.5770034790039,
+            "FailedBalls": 7.0
+        },
+        {
+            "Timestamp": "2023-12-04 10:27:54",
+            "Score": 35500.0,
+            "Time": 17.412872314453126,
+            "ScorePerSecond": 163.78533935546876,
+            "Reflexes": 0.254440575838089,
+            "BallSpeed": 72.83000183105469,
+            "FailedBalls": 7.0
+        }
+    ]
+}
